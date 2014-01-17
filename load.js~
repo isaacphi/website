@@ -1,0 +1,31 @@
+function load() { 
+    var width = 500;
+    var img = new Image();
+    img.src = 'http://thewhiztimes.com/wp-content/uploads/2012/06/astro1.png';
+    
+    // Set background image
+//    document.getElementById('bigHead').setAttribute(
+//	"style","background:url("+img.src+") no-repeat center center fixed");
+
+    // Set top heights
+/*    document.getElementById('topPic').setAttribute(
+	"style","height:"+(img.height/img.width)*width+"px");
+    document.getElementById('left').setAttribute(
+	"style","height:"+(img.height/img.width)*width+"px");
+    document.getElementById('right').setAttribute(
+	"style","height:"+(img.height/img.width)*width+"px");
+*/
+}
+
+function write() {
+    for (var i = 0; i<5000 ; i++){
+	document.write("/");
+    }
+}
+function writeShort() {
+    for (var i = 0; i<100 ; i++){
+	document.write("/");
+    }
+}
+
+window.onload = load();

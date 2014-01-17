@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" href="icon.ico">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <!--link rel="stylesheet" href="http://domain.tld/mobile.css" type="text/css" media="handheld" /-->
+  <title>Phil Isaac</title>
+  <script type="text/javascript" src="load.js"></script>
+</head>
+
+<body onload="load()">
+  <div id="container">
+    
+    <!-- Top of Page -->
+    
+    <div id="bigHead">
+      <div id="left"><script>write();</script></div>
+      <div id="top">
+	<a href="https://github.com/isaacphi">
+	  <img src="github.gif" class="social"/>
+	</a>
+	<a href="mailto:phil@philisaac.com">
+	  <img src="mail.png" class="social"/>
+	</a>
+	<a href="http://www.linkedin.com/in/philisaac">
+	  <img src="linkedin.png" class="social"/>
+	</a>
+	<a href="http://plus.google.com/+PhilipIsaac93/">
+	  <img src="googleplus.png" class="social"/>
+	</a>
+
+      </div>
+      <div id="right"><script>write();</script></div>
+    </div>
+    <!-- Navigation -->
+    
+    <div id="wrapper">
+
+      <div id="nav">
+	<h1>Phil Isaac</h1>
+	<div class="menuitem">
+	  <a href="index.html">ABOUT</a>
+	</div>
+	<div class="menuitem">
+	  <a href="projects.html">PROJECTS & WORDS</a>
+	</div>
+	<div class="menuitem">
+	  <a href="contact.html">CONTACT</a>
+	</div>
+	<span class="stretcher"> _ _ _/\_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </span>
+      </div>
+
+      <!-- Content -->
+
+      <div id="content">
+
+	<h2>Hi there,</h2>
+	<p>
+	  Welcome to the new online home of Phil Isaac (me). Here's what you need to
+	  know:
+	</p>
+	<p>
+	  I'm a 3rd year Engineering Physics student at the University of 
+	  Toronto. I love science, coding, designing, building, screwing up,
+	  designing again, building again, learning. I couldn't live without
+	  music, frisbee, or camping.
+	</p>
+	<p>
+	  I would love to chat about science, tech, or how to take the highest
+	  resolution images of pulsars ever made.
+	</p>
+	<p>Cheers,<br>Phil</p>
+	
+	<h2>
+	<img style="width:200px;text-align:center" src="phil.png"/>
+	</h2>
+      </div>
+
+      <!-- Footer -->
+
+      <div id="bigfoot">
+	<div id="leftFoot"><script>writeShort();</script></div>
+    
+	<div id="foot">
+	  <a href="http://www.gnu.org/copyleft/" style="text-decoration:underline">Copyleft</a>
+	  <span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1);
+		     -webkit-transform: scaleX(-1); transform: scaleX(-1);
+		     display: inline-block;"> © </span> 2014 - Phil Isaac - 
+	  <a href="https://github.com/isaacphi">
+	    <img src="github.gif" class="social-sm"/>
+	  </a>
+	  <a href="mailto:phil@philisaac.com">
+	    <img src="mail.png" class="social-sm"/>
+	  </a>
+	  <a href="http://www.linkedin.com/in/philisaac">
+	    <img src="linkedin.png" class="social-sm"/>
+	  </a>
+	  <a href="http://plus.google.com/+PhilipIsaac93/">
+	    <img src="googleplus.png" class="social-sm"/>
+	  </a>
+	</div>
+   
+	<div id="rightFoot"><script>writeShort();</script></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
+
