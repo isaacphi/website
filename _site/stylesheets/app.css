@@ -7401,7 +7401,7 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 17, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -7423,45 +7423,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -7470,105 +7470,156 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* FONTS */
 @font-face {
   font-family: Veramono;
-  src: url("http://localhost:4000/fonts/VeraMono.ttf");
+  src: url("http://www.philisaac.com/fonts/VeraMono.ttf");
 }
 
 @font-face {
   font-family: Body;
-  src: url("http://localhost:4000/fonts/Bentham.otf");
+  src: url("http://www.philisaac.com/fonts/Bentham.otf");
 }
 
 @font-face {
   font-family: Title;
-  src: url("http://localhost:4000/fonts/CODE_Bold.otf");
+  src: url("http://www.philisaac.com/fonts/CODE_Bold.otf");
 }
 
 @font-face {
   font-family: Casual;
-  src: url("http://localhost:4000/fonts/JosefinSans-Regular.ttf");
+  src: url("http://www.philisaac.com/fonts/JosefinSans-Regular.ttf");
 }
 
 /* VARIABLES */
-/* line 10, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #root {
   clear: both;
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -9em;
+  margin-bottom: -11em;
 }
-/* line 18, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #root #root_footer {
-  height: 9em;
+  height: 11em;
 }
 
-/* line 20, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
-  height: 9em;
+  height: 11em;
 }
 
 /* Selection color */
-/* line 66, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 ::selection {
   background: #6e6e6e;
   /* Safari */
 }
 
-/* line 69, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 ::-moz-selection {
   background: #6e6e6e;
   /* Firefox */
 }
 
-/* line 73, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 * {
   margin: 0;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 html {
   position: relative;
   min-height: 100%;
 }
 
-/* line 80, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 body {
-  margin-bottom: 9em;
+  margin-bottom: 11em;
   min-height: 100%;
   position: relative;
   background-color: #cccccc;
 }
 
 /* BACKGROUND */
-/* line 89, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 #bg_slideshow {
+  position: absolute;
+  top: 0;
   height: 30em;
   overflow: hidden;
   max-width: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
-  position: fixed;
+  /*position:fixed;*/
   top: 0;
   float: left;
   border-bottom: 3px solid #6e6e6e;
-  z-index: 1;
+  z-index: -1;
 }
-/* line 101, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 #bg_slideshow .bg-slide {
   min-width: 100%;
   min-height: 30em !important;
 }
+/* line 109, ../scss/app.scss */
+#bg_slideshow .orbit-item-1 {
+  height: 30em;
+  background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 115, ../scss/app.scss */
+#bg_slideshow .orbit-item-2 {
+  height: 30em;
+  background: url(http://www.philisaac.com/img/backgrounds/2.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 121, ../scss/app.scss */
+#bg_slideshow .orbit-item-3 {
+  height: 30em;
+  background: url(http://www.philisaac.com/img/backgrounds/3.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 127, ../scss/app.scss */
+#bg_slideshow .orbit-item-4 {
+  height: 30em;
+  background: url(http://www.philisaac.com/img/backgrounds/4.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 133, ../scss/app.scss */
+#bg_slideshow .orbit-item-5 {
+  height: 30em;
+  background: url(http://www.philisaac.com/img/backgrounds/5.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 139, ../scss/app.scss */
+#bg_slideshow .orbit-item-6 {
+  height: 30em;
+  background: url(http://www.philisaac.com/img/backgrounds/6.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 145, ../scss/app.scss */
+#bg_slideshow .orbit-item-7 {
+  height: 30em;
+  background: url(http://www.philisaac.com/img/backgrounds/7.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 /* Hide orbit timer */
-/* line 108, ../scss/app.scss */
+/* line 154, ../scss/app.scss */
 .orbit-timer {
   left: -10000px;
   top: auto;
@@ -7579,11 +7630,10 @@ body {
 }
 
 /* HEADER */
-/* line 119, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 #header {
   z-index: 1;
   position: relative;
-  top: 0;
   background: transparent;
   max-width: 100%;
   margin: 0;
@@ -7591,7 +7641,7 @@ body {
   width: 100%;
   height: 30em;
 }
-/* line 130, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 #header #top_left, #header #top_right, #header #top_mid {
   color: #cccccc;
   z-index: 2;
@@ -7601,36 +7651,36 @@ body {
   height: 30em;
   font-family: Veramono, monospace;
 }
-/* line 139, ../scss/app.scss */
+/* line 184, ../scss/app.scss */
 #header #top_left {
   text-align: right;
 }
-/* line 142, ../scss/app.scss */
+/* line 187, ../scss/app.scss */
 #header #top_mid {
+  position: absolute;
+  bottom: 0;
   margin: 0;
   padding: 0;
   z-index: 2;
-  position: relative;
   height: 3em;
-  top: 27em;
 }
-/* line 149, ../scss/app.scss */
+/* line 194, ../scss/app.scss */
 #header #top_mid .name {
   font-family: Title, monospace;
   height: 3em;
   font-size: 3em;
   text-shadow: 2px 2px 2px black;
 }
-/* line 154, ../scss/app.scss */
+/* line 199, ../scss/app.scss */
 #header #top_mid .name a {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 158, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 #header #top_mid .name a:hover {
   color: #6e6e6e;
 }
-/* line 162, ../scss/app.scss */
+/* line 207, ../scss/app.scss */
 #header #top_mid .nav {
   height: 3em;
   font-size: 1.4em;
@@ -7640,24 +7690,24 @@ body {
   overflow: visible;
   word-wrap: normal;
 }
-/* line 170, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 #header #top_mid .nav a {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 174, ../scss/app.scss */
+/* line 219, ../scss/app.scss */
 #header #top_mid .nav a:hover {
   color: #6e6e6e;
 }
 
 /* BODY */
-/* line 183, ../scss/app.scss */
+/* line 228, ../scss/app.scss */
 #content {
   padding-top: 0;
   z-index: 0;
   max-width: 100%;
 }
-/* line 187, ../scss/app.scss */
+/* line 232, ../scss/app.scss */
 #content #content_main {
   padding: 1em;
   min-height: 100%;
@@ -7666,54 +7716,58 @@ body {
   line-height: 110%;
   font-size: 1.1em;
 }
-/* line 195, ../scss/app.scss */
+/* line 240, ../scss/app.scss */
 #content ul {
-  list-style-type: circle;
+  list-style-type: disc;
   padding-left: 2em;
 }
-/* line 199, ../scss/app.scss */
+/* line 244, ../scss/app.scss */
+#content .nodot ul {
+  list-style-type: none;
+}
+/* line 247, ../scss/app.scss */
 #content hr {
   border-color: #6e6e6e;
 }
-/* line 202, ../scss/app.scss */
+/* line 250, ../scss/app.scss */
 #content h2 {
   font-family: Body, serif;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 207, ../scss/app.scss */
+/* line 255, ../scss/app.scss */
 #content h1 {
   font-family: Casual, sans;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 212, ../scss/app.scss */
+/* line 260, ../scss/app.scss */
 #content a h2:hover {
   color: #6e6e6e;
 }
-/* line 215, ../scss/app.scss */
+/* line 263, ../scss/app.scss */
 #content .date {
   font-family: Casual, sans;
 }
-/* line 218, ../scss/app.scss */
+/* line 266, ../scss/app.scss */
 #content .display_picture {
   width: 100%;
   max-width: 10em;
 }
-/* line 222, ../scss/app.scss */
+/* line 270, ../scss/app.scss */
 #content #my_picture {
   width: 50%;
 }
-/* line 225, ../scss/app.scss */
+/* line 273, ../scss/app.scss */
 #content #picture_container {
   text-align: center;
 }
-/* line 228, ../scss/app.scss */
+/* line 276, ../scss/app.scss */
 #content a {
   color: #6e6e6e;
   text-decoration: none;
 }
-/* line 232, ../scss/app.scss */
+/* line 280, ../scss/app.scss */
 #content blockquote {
   border: 1px dashed #6e6e6e;
   font-size: 1.5em;
@@ -7721,17 +7775,17 @@ body {
   padding: 0.5em;
   padding-bottom: 1em;
 }
-/* line 239, ../scss/app.scss */
+/* line 287, ../scss/app.scss */
 #content p {
   padding: 0.5em;
 }
-/* line 242, ../scss/app.scss */
+/* line 290, ../scss/app.scss */
 #content .social-lg:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 246, ../scss/app.scss */
+/* line 294, ../scss/app.scss */
 #content .social-lg {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7741,35 +7795,37 @@ body {
 }
 
 /* FOOTER */
-/* line 256, ../scss/app.scss */
+/* line 304, ../scss/app.scss */
 #foot {
-  height: 9em;
+  height: 11em;
   max-width: 100%;
   font-family: Veramono, monospace;
 }
-/* line 260, ../scss/app.scss */
+/* line 308, ../scss/app.scss */
 #foot .footer_mid {
   background-color: #6e6e6e;
-  height: 9em;
+  height: 11em;
   color: #cccccc;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 2em;
+  padding: 1em;
   text-align: center;
   font-family: Casual, sans;
 }
-/* line 269, ../scss/app.scss */
+/* line 315, ../scss/app.scss */
 #foot .footer_mid a {
   text-decoration: none;
-  color: #cccccc;
+  color: #454545;
 }
-/* line 273, ../scss/app.scss */
+/* line 319, ../scss/app.scss */
+#foot .footer_mid a:hover {
+  color: black;
+}
+/* line 322, ../scss/app.scss */
 #foot .footer_mid .social-sm:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 277, ../scss/app.scss */
+/* line 326, ../scss/app.scss */
 #foot .footer_mid .social-sm {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7777,20 +7833,20 @@ body {
   width: 3em;
   height: 3em;
 }
-/* line 284, ../scss/app.scss */
+/* line 333, ../scss/app.scss */
 #foot .footer_right, #foot .footer_left {
-  height: 9em;
+  height: 11em;
   overflow: hidden;
   word-wrap: break-word;
   color: #cccccc;
   background-color: #6e6e6e;
 }
-/* line 291, ../scss/app.scss */
+/* line 340, ../scss/app.scss */
 #foot .footer_left {
   text-align: right;
 }
 
-/* line 296, ../scss/app.scss */
+/* line 345, ../scss/app.scss */
 #footer {
   z-index: 10;
 }

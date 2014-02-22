@@ -20,8 +20,16 @@
       <div class="row collapse" id="bg_slideshow">
         <div class="large-12 columns">
           <ul data-orbit>
+	    <li class="orbit-item-1"></li>
+	    <li class="orbit-item-2"></li>
+	    <li class="orbit-item-3"></li>
+	    <li class="orbit-item-4"></li>
+	    <li class="orbit-item-5"></li>
+	    <li class="orbit-item-6"></li>
+	    <li class="orbit-item-7"></li>
+
 	    <!-- put in more backgrounds-->
-            <li>
+            <!--li>
 	      <img src="http://localhost:4000/img/backgrounds/1.jpg" class="bg-slide" />
             </li>
             <li>
@@ -41,7 +49,7 @@
             </li>
             <li>
 	      <img src="http://localhost:4000/img/backgrounds/7.jpg" class="bg-slide" />
-            </li>
+            </li-->
           </ul>
         </div>
       </div>  
@@ -51,16 +59,18 @@
         <div class="large-2 medium-1 hide-for-small columns" id="top_left">
           <script>write();</script>
         </div>
-        <div class="large-8 medium-10 small-12 columns" id="top_mid">
-          <div class="row">
-            <div class="small-7 columns name">
-              <a href="http://localhost:4000">Phil Isaac</a>
+        <div class="large-8 medium-10 small-12 small-offset-0 large-offset-2 medium-offset-1 columns " id="top_mid">
+	  <div id="nav_wrapper">
+            <div class="row">
+              <div class="small-6 columns name">
+		<a href="http://localhost:4000">Phil Isaac</a>
+              </div>
+              <div class="small-6 columns nav">
+		<a href="http://localhost:4000">About/Contact</a></br>
+		<a href="http://localhost:4000/blog.html">Projects/Blog</a>
+              </div>
             </div>
-            <div class="small-5 columns nav">
-              <a href="http://localhost:4000">About/Contact</a></br>
-              <a href="http://localhost:4000/blog.html">Projects/Blog</a>
-            </div>
-          </div>
+	  </div>
         </div>
         <div class="large-2 medium-1 hide-for-small columns" id="top_right">
           <script>write();</script>
@@ -75,15 +85,16 @@
 
 <h1>Recent Posts</h1>
 
+<div class="nodot">
 <ul>
   
   <hr>
   <li>
-    <div class="medium-3 columns">
+    <div class="small-3 columns">
       <a href="http://localhost:4000/2014/02/18/test3.html"><img src="/img/mail.png" class="display_picture"/></a>
     </div>
-    <div class="medium-9 columns">
-      <div class="date">February 18, 2014</div></br>
+    <div class="small-9 columns">
+      <div class="date">February 18, 2014</div>
       <a href="http://localhost:4000/2014/02/18/test3.html">
 	<h2>Test Three</h2>
       </a>
@@ -92,11 +103,11 @@
   
   <hr>
   <li>
-    <div class="medium-3 columns">
+    <div class="small-3 columns">
       <a href="http://localhost:4000/2014/02/18/test2.html"><img src="/img/linkedin.png" class="display_picture"/></a>
     </div>
-    <div class="medium-9 columns">
-      <div class="date">February 18, 2014</div></br>
+    <div class="small-9 columns">
+      <div class="date">February 18, 2014</div>
       <a href="http://localhost:4000/2014/02/18/test2.html">
 	<h2>Test Two</h2>
       </a>
@@ -105,11 +116,11 @@
   
   <hr>
   <li>
-    <div class="medium-3 columns">
+    <div class="small-3 columns">
       <a href="http://localhost:4000/2014/02/17/test1.html"><img src="/img/github.gif" class="display_picture"/></a>
     </div>
-    <div class="medium-9 columns">
-      <div class="date">February 17, 2014</div></br>
+    <div class="small-9 columns">
+      <div class="date">February 17, 2014</div>
       <a href="http://localhost:4000/2014/02/17/test1.html">
 	<h2>Test One</h2>
       </a>
@@ -117,6 +128,7 @@
   </li>
   
 </ul>
+</div>
 
 
 	</div>
@@ -133,11 +145,9 @@
         <div class="large-2 medium-1 hide-for-small columns footer_left"><script>write();</script></div>
         <div class="large-8 medium-10 small-12 columns footer_mid">
 	  
-	  <a href="http://www.gnu.org/copyleft/">Copyleft</a>
-	  <span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1);
-		     -webkit-transform: scaleX(-1); transform: scaleX(-1);
-		     display: inline-block;"> © </span> 2014 - Phil Isaac
-	  </br></br>
+	  Jump around:</br></br>
+	  <a href="http://localhost:4000">ABOUT/CONTACT</a> &mdash;
+	  <a href="http://localhost:4000/blog.html">BLOG/PROJECTS</a></br></br>
 	  <a href="https://github.com/isaacphi">
 	    <img src="http://localhost:4000/img/github.gif" class="social-sm"/>
 	  </a>
@@ -149,7 +159,11 @@
 	  </a>
 	  <a href="http://plus.google.com/+PhilipIsaac93/">
 	    <img src="http://localhost:4000/img/googleplus.png" class="social-sm"/>
-	  </a>
+	  </a></br></br>
+	  <a href="http://www.gnu.org/copyleft/">Copyleft</a>
+	  <span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1);
+		     -webkit-transform: scaleX(-1); transform: scaleX(-1);
+		     display: inline-block;"> © </span> 2014 - Phil Isaac
 
 
         </div>

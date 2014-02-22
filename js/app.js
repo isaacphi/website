@@ -28,10 +28,28 @@ function writeShort() {
     }
 }
 
-var secondScroll = false;
+
+/*window.onload = function() {
+    setBG();
+}
+var intervalID = setInterval(
+    function() {
+    	    setBG();
+    }, 15000);
+
+function setBG() {
+    var randNum = Math.floor((Math.random()*7)+1); // random int between 1 and 7    
+    document.getElementsByClassName("orbit-item")[0].style.height = "30em";
+    document.getElementsByClassName("orbit-item")[0].style.background-size=cover;
+    document.getElementsByClassName("orbit-item")[0].style.background-attachment=fixed;
+    document.getElementsByClassName("orbit-item")[0].style.background =
+	'url(img/backgrounds/'+randNum.toString()+'.jpg) no-repeat center';
+}*/
+
+//var secondScroll = false;
 
 // Handle scrolling
-window.onscroll = function () {
+/*window.onscroll = function () {
     var hHeight = getEmSize(top_mid)*30;
     var tophHeight = getEmSize(top_mid)*3;
 
@@ -73,7 +91,7 @@ window.onscroll = function () {
 	// Footer
 	//document.getElementById("footer").style.top = hHeight+"px";
     }
-}
+}*/
 
 // The the size in pixels of an element?
 function getEmSize(el) {

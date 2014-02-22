@@ -1,3 +1,5 @@
+
+
 @import "settings";
 @import "foundation";
 @import "compass/reset.scss";
@@ -8,15 +10,15 @@
 
 
 /* FONTS */
-@font-face { font-family: Veramono; src: url('http://localhost:4000/fonts/VeraMono.ttf'); }
-@font-face { font-family: Body; src: url('http://localhost:4000/fonts/Bentham.otf'); }
-@font-face { font-family: Title; src: url('http://localhost:4000/fonts/CODE_Bold.otf'); } 
-@font-face { font-family: Casual; src: url('http://localhost:4000/fonts/JosefinSans-Regular.ttf'); } 
+@font-face { font-family: Veramono; src: url('http://www.philisaac.com/fonts/VeraMono.ttf'); }
+@font-face { font-family: Body; src: url('http://www.philisaac.com/fonts/Bentham.otf'); }
+@font-face { font-family: Title; src: url('http://www.philisaac.com/fonts/CODE_Bold.otf'); } 
+@font-face { font-family: Casual; src: url('http://www.philisaac.com/fonts/JosefinSans-Regular.ttf'); } 
 
 /* VARIABLES */
 $header_height: 30em;
 $top_header_height: 3em;
-$footer_height: 9em;
+$footer_height: 11em;
 $mono_font: Veramono, monospace;
 $bg_light:#cccccc;
 $bg_dark:#6E6E6E;
@@ -87,20 +89,64 @@ body {
 /* BACKGROUND */
 
 #bg_slideshow {
+    position: absolute;
+    top:0;
 	height: $header_height;
 	overflow:hidden;
 	max-width: 100%;
 	margin: 0;
 	padding: 0;
 	width:100%;
-	position:fixed;
+	/*position:fixed;*/
 	top:0;
 	float:left;
 	border-bottom: 3px solid $bg_dark;
-	z-index:1;
+	z-index:-1;
 	.bg-slide {
 		min-width: 100%;
 		min-height: $header_height !important;
+	}
+	.orbit-item-1{
+	    height: $header_height;
+	    background : url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
+	    background-size:cover;
+	    background-attachment:fixed;
+	}
+	.orbit-item-2{
+	    height : $header_height;
+	    background : url(http://www.philisaac.com/img/backgrounds/2.jpg) no-repeat center;
+	    background-size:cover;
+	    background-attachment:fixed;
+	}
+	.orbit-item-3{
+	    height : $header_height;
+	    background : url(http://www.philisaac.com/img/backgrounds/3.jpg) no-repeat center;
+	    background-size:cover;
+	    background-attachment:fixed;
+	}
+	.orbit-item-4{
+	    height : $header_height;
+	    background : url(http://www.philisaac.com/img/backgrounds/4.jpg) no-repeat center;
+	    background-size:cover;
+	    background-attachment:fixed;
+	}
+	.orbit-item-5{
+	    height : $header_height;
+	    background : url(http://www.philisaac.com/img/backgrounds/5.jpg) no-repeat center;
+	    background-size:cover;
+	    background-attachment:fixed;
+	}
+	.orbit-item-6{
+	    height : $header_height;
+	    background : url(http://www.philisaac.com/img/backgrounds/6.jpg) no-repeat center;
+	    background-size:cover;
+	    background-attachment:fixed;
+	}
+	.orbit-item-7{
+	    height : $header_height;
+	    background : url(http://www.philisaac.com/img/backgrounds/7.jpg) no-repeat center;
+	    background-size:cover;
+	    background-attachment:fixed;
 	}
 }
 
@@ -119,7 +165,6 @@ body {
 #header {
         z-index:1;
 	position: relative;
-	top:0;
 	background: transparent;
 	max-width: 100%;
 	margin: 0;
@@ -140,12 +185,12 @@ body {
 		text-align: right;
 	}
 	#top_mid{
+	    position: absolute;
+	    bottom: 0;
 		margin:0;
 		padding: 0;
 		z-index: 2;
-		position:relative;
 		height: 3em;
-		top: $header_height - $top_header_height;
 		.name {
 			font-family: $title_font;
 			height: 3em;
@@ -159,7 +204,7 @@ body {
 			    color: $bg_dark;
 			}
 		}
-		.nav {
+		.nav {	
 			height: 3em;
 			font-size: 1.4em;
 			font-family: $title_font;
@@ -193,8 +238,11 @@ body {
 		font-size: 1.1em;
 	}
 	ul {
-	    list-style-type: circle;
+	    list-style-type: disc;
 	    padding-left: 2em;
+	}
+	.nodot ul {
+	    list-style-type: none;
 	}
 	hr {
 	    border-color:$bg_dark;
@@ -261,14 +309,15 @@ body {
 		background-color: $bg_dark;
 		height: $footer_height;
 		color: $bg_light;
-		padding-left: 1em;
-		padding-right: 1em;
-		padding-top:2em;
+		padding:1em;
 		text-align: center;
 		font-family: Casual, sans;
 		a {
 		    text-decoration:none;
-		    color: $bg_light;
+		    color: #454545;
+		}
+		a:hover {
+		    color: black;
 		}
 		.social-sm:hover {
 		    opacity: 1.0;
