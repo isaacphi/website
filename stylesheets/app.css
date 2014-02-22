@@ -7610,9 +7610,16 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+/* line 140, ../scss/app.scss */
+#bg_slideshow .orbit-item-8 {
+  height: 30em;
+  background: url(http://www.philisaac.com/img/backgrounds/8.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 /* Hide orbit timer */
-/* line 143, ../scss/app.scss */
+/* line 149, ../scss/app.scss */
 .orbit-timer {
   left: -10000px;
   top: auto;
@@ -7623,7 +7630,7 @@ body {
 }
 
 /* HEADER */
-/* line 154, ../scss/app.scss */
+/* line 160, ../scss/app.scss */
 #header {
   z-index: 1;
   position: relative;
@@ -7634,7 +7641,7 @@ body {
   width: 100%;
   height: 30em;
 }
-/* line 164, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 #header #top_left, #header #top_right, #header #top_mid {
   color: #cccccc;
   z-index: 2;
@@ -7644,11 +7651,11 @@ body {
   height: 30em;
   font-family: Veramono, monospace;
 }
-/* line 173, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 #header #top_left {
   text-align: right;
 }
-/* line 176, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 #header #top_mid {
   position: absolute;
   bottom: 0;
@@ -7657,23 +7664,23 @@ body {
   z-index: 2;
   height: 3em;
 }
-/* line 183, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 #header #top_mid .name {
   font-family: Title, monospace;
   height: 3em;
   font-size: 3em;
   text-shadow: 2px 2px 2px black;
 }
-/* line 188, ../scss/app.scss */
+/* line 194, ../scss/app.scss */
 #header #top_mid .name a {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 192, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 #header #top_mid .name a:hover {
   color: #6e6e6e;
 }
-/* line 196, ../scss/app.scss */
+/* line 202, ../scss/app.scss */
 #header #top_mid .nav {
   height: 3em;
   font-size: 1.4em;
@@ -7683,24 +7690,24 @@ body {
   overflow: visible;
   word-wrap: normal;
 }
-/* line 204, ../scss/app.scss */
+/* line 210, ../scss/app.scss */
 #header #top_mid .nav a {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 208, ../scss/app.scss */
+/* line 214, ../scss/app.scss */
 #header #top_mid .nav a:hover {
   color: #6e6e6e;
 }
 
 /* BODY */
-/* line 217, ../scss/app.scss */
+/* line 223, ../scss/app.scss */
 #content {
   padding-top: 0;
   z-index: 0;
   max-width: 100%;
 }
-/* line 221, ../scss/app.scss */
+/* line 227, ../scss/app.scss */
 #content #content_main {
   padding: 1em;
   min-height: 100%;
@@ -7709,63 +7716,63 @@ body {
   line-height: 110%;
   font-size: 1.1em;
 }
-/* line 229, ../scss/app.scss */
+/* line 235, ../scss/app.scss */
 #content ul {
   list-style-type: disc;
   padding-left: 2em;
 }
-/* line 233, ../scss/app.scss */
+/* line 239, ../scss/app.scss */
 #content .nodot ul {
   list-style-type: none;
   padding-left: 0;
 }
-/* line 237, ../scss/app.scss */
+/* line 243, ../scss/app.scss */
 #content hr {
   border-color: #6e6e6e;
 }
-/* line 240, ../scss/app.scss */
+/* line 246, ../scss/app.scss */
 #content h2 {
   font-family: Body, serif;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 245, ../scss/app.scss */
+/* line 251, ../scss/app.scss */
 #content h1 {
   font-family: Casual, sans;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 250, ../scss/app.scss */
+/* line 256, ../scss/app.scss */
 #content a h2:hover {
   color: #6e6e6e;
 }
-/* line 253, ../scss/app.scss */
+/* line 259, ../scss/app.scss */
 #content .date {
   font-family: Casual, sans;
 }
-/* line 256, ../scss/app.scss */
+/* line 262, ../scss/app.scss */
 #content .display_picture {
   width: 100%;
   max-width: 10em;
 }
-/* line 260, ../scss/app.scss */
+/* line 266, ../scss/app.scss */
 #content #my_picture {
   width: 50%;
 }
-/* line 263, ../scss/app.scss */
+/* line 269, ../scss/app.scss */
 #content #picture_container {
   text-align: center;
 }
-/* line 266, ../scss/app.scss */
+/* line 272, ../scss/app.scss */
 #content a {
   color: #6e6e6e;
   text-decoration: none;
 }
-/* line 270, ../scss/app.scss */
+/* line 276, ../scss/app.scss */
 #content a:hover {
   color: black;
 }
-/* line 273, ../scss/app.scss */
+/* line 279, ../scss/app.scss */
 #content blockquote {
   border: 1px dashed #6e6e6e;
   font-size: 1.5em;
@@ -7773,17 +7780,17 @@ body {
   padding: 0.5em;
   padding-bottom: 1em;
 }
-/* line 280, ../scss/app.scss */
+/* line 286, ../scss/app.scss */
 #content p {
   padding: 0.5em;
 }
-/* line 283, ../scss/app.scss */
+/* line 289, ../scss/app.scss */
 #content .social-lg:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 287, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 #content .social-lg {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7793,13 +7800,13 @@ body {
 }
 
 /* FOOTER */
-/* line 297, ../scss/app.scss */
+/* line 303, ../scss/app.scss */
 #foot {
   height: 11em;
   max-width: 100%;
   font-family: Veramono, monospace;
 }
-/* line 301, ../scss/app.scss */
+/* line 307, ../scss/app.scss */
 #foot .footer_mid {
   background-color: #6e6e6e;
   height: 11em;
@@ -7808,22 +7815,22 @@ body {
   text-align: center;
   font-family: Casual, sans;
 }
-/* line 308, ../scss/app.scss */
+/* line 314, ../scss/app.scss */
 #foot .footer_mid a {
   text-decoration: none;
   color: #454545;
 }
-/* line 312, ../scss/app.scss */
+/* line 318, ../scss/app.scss */
 #foot .footer_mid a:hover {
   color: black;
 }
-/* line 315, ../scss/app.scss */
+/* line 321, ../scss/app.scss */
 #foot .footer_mid .social-sm:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 319, ../scss/app.scss */
+/* line 325, ../scss/app.scss */
 #foot .footer_mid .social-sm {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7831,7 +7838,7 @@ body {
   width: 3em;
   height: 3em;
 }
-/* line 326, ../scss/app.scss */
+/* line 332, ../scss/app.scss */
 #foot .footer_right, #foot .footer_left {
   height: 11em;
   overflow: hidden;
@@ -7839,12 +7846,12 @@ body {
   color: #cccccc;
   background-color: #6e6e6e;
 }
-/* line 333, ../scss/app.scss */
+/* line 339, ../scss/app.scss */
 #foot .footer_left {
   text-align: right;
 }
 
-/* line 338, ../scss/app.scss */
+/* line 344, ../scss/app.scss */
 #footer {
   z-index: 10;
 }
