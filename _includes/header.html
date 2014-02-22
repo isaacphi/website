@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ site.name }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{site.url}}/stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- My script file -->
+    <script src="{{site.url}}/js/app.js"></script>
+    <link rel="shortcut icon" href="icon.ico">
+  </head>
+  
+  <body>
+
+    <div id="root">
+
+      <!-- Slideshow -->
+      <div class="row collapse" id="bg_slideshow">
+        <div class="large-12 columns">
+          <ul data-orbit>
+	    <!-- put in more backgrounds-->
+            <li>
+	      <img src="{{site.url}}/img/backgrounds/1.jpg" class="bg-slide" />
+            </li>
+            <li>
+	      <img src="{{site.url}}/img/backgrounds/2.jpg" class="bg-slide" />
+            </li>
+            <li>
+	      <img src="{{site.url}}/img/backgrounds/3.jpg" class="bg-slide" />
+            </li>
+            <li>
+	      <img src="{{site.url}}/img/backgrounds/4.jpg" class="bg-slide" />
+            </li>
+            <li>
+	      <img src="{{site.url}}/img/backgrounds/5.jpg" class="bg-slide" />
+            </li>
+            <li>
+	      <img src="{{site.url}}/img/backgrounds/6.jpg" class="bg-slide" />
+            </li>
+            <li>
+	      <img src="{{site.url}}/img/backgrounds/7.jpg" class="bg-slide" />
+            </li>
+          </ul>
+        </div>
+      </div>  
+
+      <!-- Header -->
+      <div class="row collapse" id="header">
+        <div class="large-2 medium-1 hide-for-small columns" id="top_left">
+          <script>write();</script>
+        </div>
+        <div class="large-8 medium-10 small-12 columns" id="top_mid">
+          <div class="row">
+            <div class="small-7 columns name">
+              <a href="{{ site.url }}">Phil Isaac</a>
+            </div>
+            <div class="small-5 columns nav">
+              <a href="{{ site.url }}">About/Contact</a></br>
+              <a href="{{ site.url }}/blog.html">Projects/Blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="large-2 medium-1 hide-for-small columns" id="top_right">
+          <script>write();</script>
+        </div>
+      </div>
+
+      <!-- Body -->
+      <div class="row collapse" id="content">
+        <!--div class="medium-3 show-for-medium-up columns" id="content_left">/</div-->
+        <div class="large-8 medium-10 small-12 small-offset-0 large-offset-2 medium-offset-1 columns" id="content_main">

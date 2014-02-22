@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- My script file -->
+    <script src="js/app.js"></script>
+  </head>
+
+  <body>
+
+    <div id="root">
+
+      <!-- Slideshow -->
+      <div class="row collapse" id="bg_slideshow">
+        <div class="large-12 columns">
+          <ul data-orbit>
+            <li>
+              <img src="http://cdn.bloody-disgusting.com/wp-content/uploads/2013/05/Space-Universe-395.jpg" />
+            </li>
+            <li>
+              <img src="http://momentumbooks.com.au/wp-content/uploads/2013/06/space.jpg" />
+            </li>
+          </ul>
+        </div>
+      </div>  
+
+      <!-- Header -->
+      <div class="row collapse" id="header">
+        <div class="large-3 show-for-medium-up columns" id="top_left">
+          <script>write();</script>
+        </div>
+        <div class="large-6 columns" id="top_mid">
+          <div class="row">
+            <div class="small-8 columns name">
+              Phil Isaac
+            </div>
+            <div class="small-4 columns nav">
+              a </br>
+              b </br>
+              c </br>
+            </div>
+          </div>
+        </div>
+        <div class="large-3 show-for-medium-up columns" id="top_right">
+          <script>write();</script>
+        </div>
+      </div>
+
+      <!-- Body -->
+      <div class="row collapse" id="content">
+        <!--div class="medium-3 show-for-medium-up columns" id="content_left">/</div-->
+        <div class="large-6 large-offset-3 columns" id="content_main">
+          <p>
+            Hello.Hello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.HelHello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.
+          </p>
+          <p>
+            Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.lo.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.HHello.HHello.Hello.Hello.Hello.Hello.ello.Hello.Hello.Hello.Hello.Hello.ello.
+          </p>
+          <p>
+            Hello.Hello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.HelHello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.
+          </p>
+          <p>
+            Hello.Hello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.HelHello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.
+          </p>
+          <p>
+            Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.lo.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.Hello.HHello.Hello.Hello.Hello.Hello.ello.HHello.HHello.Hello.Hello.Hello.Hello.ello.Hello.Hello.Hello.Hello.Hello.ello.
+          </p>
+        </div>
+        <!--div class="medium-3 show-for-medium-up columns" id="content_right">/</div-->
+      </div>
+
+      <div id="root_footer"> <!-- required for sticky footer--> </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <div class="row collapse" id="foot">
+        <div class="large-3 show-for-medium-up columns footer_left"><script>write();</script></div>
+        <div class="large-6 columns footer_mid">
+          Foot Foot Foot.
+        </div>
+        <div class="large-3 show-for-medium-up columns footer_right"><script>write();</script></div>
+      </div>
+    </div>
+
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>

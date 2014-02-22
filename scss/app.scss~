@@ -1,0 +1,217 @@
+@import "settings";
+@import "foundation";
+@import "compass/reset.scss";
+@import "compass/layout.scss";
+@import "compass/layout/sticky-footer";
+
+/* URL */
+
+
+/* FONTS */
+@font-face { font-family: Veramono; src: url('http://localhost:4000/fonts/VeraMono.ttf'); }
+@font-face { font-family: Body; src: url('http://localhost:4000/fonts/CrimsonText-Roman.ttf'); }
+@font-face { font-family: Title; src: url('http://localhost:4000/fonts/Molot.otf'); } 
+@font-face { font-family: FooterFont; src: url('http://localhost:4000/fonts/JosefinSans-Regular.ttf'); } 
+
+/* VARIABLES */
+$header_height: 30em;
+$top_header_height: 3em;
+$footer_height: 9em;
+$mono_font: Veramono, monospace;
+$bg_light:#cccccc;
+$bg_dark:#2d2d2d;
+$title_font:Title,monospace;
+$bg_color: #cccccc;
+
+@include sticky-footer($footer_height);
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+* {
+	margin: 0;
+}
+html {
+	position:relative;
+	min-height:100%;
+}
+body {
+	margin-bottom: $footer_height;
+	min-height: 100%;
+	position: relative;
+	background-color: $bg_color;
+}
+
+/* BACKGROUND */
+
+#bg_slideshow {
+	height: $header_height;
+	overflow:hidden;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	position:fixed;
+	top:0;
+	float:left;
+	border-bottom: 3px solid black;
+	.bg-slide {
+		min-width: 100%;
+		min-height: $header_height !important;
+	}
+}
+
+/* Hide orbit timer */
+.orbit-timer {
+    left: -10000px;
+    top: auto;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+/* HEADER */
+
+#header {
+	position: relative;
+	top:0;
+	background: transparent;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: $header_height;
+
+	#top_left, #top_right, #top_mid {
+		color:$bg_light;
+		z-index: 0;
+		overflow: hidden;
+		word-wrap: break-word;
+		position: relative;
+		height: $header_height;
+		font-family: $mono_font;
+	}
+	#top_left{
+		text-align: right;
+	}
+	#top_mid{
+		margin:0;
+		padding: 0;
+		z-index: 0;
+		position:relative;
+		height: 3em;
+		top: $header_height - $top_header_height;
+		.name {
+			font-family: $title_font;
+			height: 3em;
+			font-size: 3em;
+			text-shadow: 2px 2px 2px black;
+		}
+		.nav {
+			height: 3em;
+			font-size: 1.4em;
+			font-family: $title_font;
+			text-align: right;
+			text-shadow: 2px 2px 2px black;
+			overflow: visible;
+			word-wrap: normal;
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+/* BODY */
+
+#content {
+	padding-top: 0;
+	z-index: -5;
+	max-width: 100%;
+	#content_main {
+		padding:1em;
+		min-height:100%;
+		z-index: -5;
+		font-family: Body, serif;
+		line-height: 120%;
+		font-size: 1.2em;
+	}
+}
+
+/* FOOTER */
+
+#foot {
+	z-index:10;
+	height:$footer_height;
+	max-width: 100%;
+	font-family: $mono_font;
+	.footer_mid {
+		background-color: $bg_dark;
+		height: $footer_height;
+		color: $bg_light;
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top:2em;
+		text-align: center;
+		font-family: FooterFont, sans;
+		a {
+		    text-decoration:none;
+		    color: $bg_light;
+		}
+		.social-sm {
+		    opacity:0.8;
+		    filter:alpha(opacity=80); /* For IE8 and earlier */
+		    width: 3em;
+		    height: 3em;
+		}
+	}
+	.footer_right, .footer_left{
+		height:$footer_height;
+		overflow:hidden;
+		word-wrap:break-word;
+		color: $bg_light;
+		background-color: $bg_dark;
+	}
+	.footer_left{
+		text-align: right;
+	}
+}
+
+#footer{
+
+}
