@@ -23,12 +23,12 @@ function write() {
     }
 }
 function writeShort() {
-    for (var i = 0; i<100 ; i++){
+    for (var i = 0; i<1000 ; i++){
     	document.write("/");
     }
 }
 
-
+// Randomize background picture
 /*window.onload = function() {
     setBG();
 }
@@ -44,53 +44,6 @@ function setBG() {
     document.getElementsByClassName("orbit-item")[0].style.background-attachment=fixed;
     document.getElementsByClassName("orbit-item")[0].style.background =
 	'url(img/backgrounds/'+randNum.toString()+'.jpg) no-repeat center';
-}*/
-
-//var secondScroll = false;
-
-// Handle scrolling
-/*window.onscroll = function () {
-    var hHeight = getEmSize(top_mid)*30;
-    var tophHeight = getEmSize(top_mid)*3;
-
-    var top = window.pageXOffset ? window.pageXOffset : 
-	document.documentElement.scrollTop ? 
-	document.documentElement.scrollTop : document.body.scrollTop;
-    // scrolled far down
-    if(top > hHeight-tophHeight){
-	// Header
-	document.getElementById("bg_slideshow").style.height = tophHeight+"px";
-        document.getElementById("top_mid").style.top = "0px";
-	document.getElementById("header").style.position = "fixed";
-	document.getElementById("header").style.height = tophHeight+"px";
-	// Body
-	document.getElementById("content_main").style.top = hHeight+"px";
-
-	secondScroll = true;
-	// Footer
-	document.getElementById("footer").style.top = hHeight+"px";
-    }
-    // not scrolled that far down yet
-    else {
-	// Header
-	document.getElementById("bg_slideshow").style.height = 
-	    hHeight-top+"px";
-        document.getElementById("top_mid").style.top = hHeight-tophHeight+"px";	
-        document.getElementById("header").style.position = "relative";
-	document.getElementById("header").style.top = "0px";
-	// Body
-	// Second scroll: something wacky about small screen size
-	if (secondScroll==true && window.innerWidth<641) {
-	    document.getElementById("content_main").style.top = hHeight-tophHeight+"px";
-	}
-	else {
-	    document.getElementById("content_main").style.top = "0px";
-	}
-	//document.getElementById("content_main").style.top = "0px";
-	
-	// Footer
-	//document.getElementById("footer").style.top = hHeight+"px";
-    }
 }*/
 
 // The the size in pixels of an element?
