@@ -1,0 +1,25 @@
+---
+title: Blog
+layout: default
+---
+
+<h1>Recent Posts</h1>
+
+<div class="nodot">
+<ul>
+  {% for post in site.posts %}
+  <hr>
+  <li>
+    <div class="small-3 columns">
+      <a href="{{ site.url }}{{ post.url }}">{{ post.excerpt }}</a>
+    </div>
+    <div class="small-9 columns">
+      <div class="date">{{ post.date | date: "%B %d, %Y"  }}</div>
+      <a href="{{ site.url }}{{ post.url }}">
+	<h2>{{ post.title }}</h2>
+      </a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+</div>
