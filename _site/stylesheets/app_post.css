@@ -7790,15 +7790,19 @@ body {
   width: 100%;
   max-width: 5em;
 }
+/* line 292, ../scss/app_post.scss */
+#content img {
+  width: 100%;
+}
 
 /* FOOTER */
-/* line 296, ../scss/app_post.scss */
+/* line 299, ../scss/app_post.scss */
 #foot {
   height: 11em;
   max-width: 100%;
   font-family: Veramono, monospace;
 }
-/* line 300, ../scss/app_post.scss */
+/* line 303, ../scss/app_post.scss */
 #foot .footer_mid {
   background-color: #6e6e6e;
   height: 11em;
@@ -7807,22 +7811,22 @@ body {
   text-align: center;
   font-family: Casual, sans;
 }
-/* line 307, ../scss/app_post.scss */
+/* line 310, ../scss/app_post.scss */
 #foot .footer_mid a {
   text-decoration: none;
   color: #454545;
 }
-/* line 311, ../scss/app_post.scss */
+/* line 314, ../scss/app_post.scss */
 #foot .footer_mid a:hover {
   color: black;
 }
-/* line 314, ../scss/app_post.scss */
+/* line 317, ../scss/app_post.scss */
 #foot .footer_mid .social-sm:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 318, ../scss/app_post.scss */
+/* line 321, ../scss/app_post.scss */
 #foot .footer_mid .social-sm {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7830,7 +7834,7 @@ body {
   width: 3em;
   height: 3em;
 }
-/* line 325, ../scss/app_post.scss */
+/* line 328, ../scss/app_post.scss */
 #foot .footer_right, #foot .footer_left {
   height: 11em;
   overflow: hidden;
@@ -7838,12 +7842,12 @@ body {
   color: #cccccc;
   background-color: #6e6e6e;
 }
-/* line 332, ../scss/app_post.scss */
+/* line 335, ../scss/app_post.scss */
 #foot .footer_left {
   text-align: right;
 }
 
-/* line 337, ../scss/app_post.scss */
+/* line 340, ../scss/app_post.scss */
 #footer {
   z-index: 10;
 }
