@@ -11,7 +11,7 @@
 @font-face { font-family: Casual; src: url('http://www.philisaac.com/fonts/JosefinSans-Regular.ttf'); } 
 
 /* VARIABLES */
-$header_height: 3em;
+$header_height: 30em;
 $footer_height: 11em;
 $mono_font: Veramono, monospace;
 $bg_light:#cccccc;
@@ -137,6 +137,12 @@ body {
 	background-size:cover;
 	background-attachment:fixed;
     }
+    .orbit-item-8{
+	height : $header_height;
+	background : url(http://www.philisaac.com/img/backgrounds/8.jpg) no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+    }
 }
 
 /* Hide orbit timer */
@@ -230,12 +236,9 @@ body {
 	list-style-type: disc;
 	padding-left: 2em;
     }
-    ol {
-       list-style-type: decimal;
-       padding-left: 2em;
-    }		
     .nodot ul {
 	list-style-type: none;
+	padding-left: 0;
     }
     hr {
 	border-color:$bg_dark;
@@ -292,9 +295,6 @@ body {
 	filter:alpha(opacity=30); /* For IE8 and earlier */
 	width: 100%;
 	max-width:5em;
-    }
-    img {
-    	width: 100%;
     }
 }
 
