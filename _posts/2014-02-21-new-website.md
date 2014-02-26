@@ -1,5 +1,5 @@
 ---
-title: Test One
+title: Phil Isaac now has a website
 layout: posts
 excerpt: <img src="/img/postpics/old_site_screenshot.png" class="display_picture"/>
 ---
