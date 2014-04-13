@@ -96,6 +96,10 @@ body {
     z-index:-1;
     /* Background Pictures */
     background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* No longer using Orbit */
     .orbit-item-1{
 	height: $header_height;
 	background : url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;

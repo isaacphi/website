@@ -2,6 +2,7 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 
 // Run orbit on load
+/*
 $(document).foundation('orbit', {
     animation: 'fade',
     timer_speed: 15000,
@@ -15,6 +16,7 @@ $(document).foundation('orbit', {
     timer: true,
     variable_height: false,
   });
+*/
 
 // Random background picture
 var images = ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg','6.jpg','7.jpg','8.jpg'];
