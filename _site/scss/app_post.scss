@@ -95,12 +95,20 @@ body {
     border-bottom: 3px solid $bg_dark;
     z-index:-1;
     /* Background Pictures */
+    .random-pic{
+	height: $header_height;
+	background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+    }
+
+    /* No longer using Orbit */
     .orbit-item-1{
 	height: $header_height;
 	background : url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
 	background-size:cover;
 	background-attachment:fixed;
-	}
+    }
     .orbit-item-2{
 	height : $header_height;
 	background : url(http://www.philisaac.com/img/backgrounds/2.jpg) no-repeat center;
