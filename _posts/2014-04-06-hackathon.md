@@ -1,7 +1,7 @@
 ---
 title: Phil Isaac now has a website
 layout: posts
-excerpt: <img src="/img/postpics/old_site_screenshot_tb.png" class="display_picture"/>
+excerpt: <img src="/img/postpics/timetracks_tb.png" class="display_picture"/>
 ---
 
 # Phil Isaac now has a website

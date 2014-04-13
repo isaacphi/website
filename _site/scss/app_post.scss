@@ -230,6 +230,10 @@ body {
 	list-style-type: disc;
 	padding-left: 2em;
     }
+    ol {
+       list-style-type: decimal;
+       padding-left: 2em;
+    }		
     .nodot ul {
 	list-style-type: none;
     }

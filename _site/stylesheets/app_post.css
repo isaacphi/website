@@ -7715,56 +7715,61 @@ body {
   padding-left: 2em;
 }
 /* line 233, ../scss/app_post.scss */
+#content ol {
+  list-style-type: decimal;
+  padding-left: 2em;
+}
+/* line 237, ../scss/app_post.scss */
 #content .nodot ul {
   list-style-type: none;
 }
-/* line 236, ../scss/app_post.scss */
+/* line 240, ../scss/app_post.scss */
 #content hr {
   border-color: #6e6e6e;
 }
-/* line 239, ../scss/app_post.scss */
+/* line 243, ../scss/app_post.scss */
 #content h2 {
   font-family: Body, serif;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 244, ../scss/app_post.scss */
+/* line 248, ../scss/app_post.scss */
 #content h1 {
   font-family: Casual, sans;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 249, ../scss/app_post.scss */
+/* line 253, ../scss/app_post.scss */
 #content a h2:hover {
   color: #6e6e6e;
 }
-/* line 252, ../scss/app_post.scss */
+/* line 256, ../scss/app_post.scss */
 #content .date {
   font-family: Casual, sans;
 }
-/* line 255, ../scss/app_post.scss */
+/* line 259, ../scss/app_post.scss */
 #content .display_picture {
   width: 100%;
   max-width: 10em;
 }
-/* line 259, ../scss/app_post.scss */
+/* line 263, ../scss/app_post.scss */
 #content #my_picture {
   width: 50%;
 }
-/* line 262, ../scss/app_post.scss */
+/* line 266, ../scss/app_post.scss */
 #content #picture_container {
   text-align: center;
 }
-/* line 265, ../scss/app_post.scss */
+/* line 269, ../scss/app_post.scss */
 #content a {
   color: #6e6e6e;
   text-decoration: none;
 }
-/* line 269, ../scss/app_post.scss */
+/* line 273, ../scss/app_post.scss */
 #content a:hover {
   color: black;
 }
-/* line 272, ../scss/app_post.scss */
+/* line 276, ../scss/app_post.scss */
 #content blockquote {
   border: 1px dashed #6e6e6e;
   font-size: 1.5em;
@@ -7772,17 +7777,17 @@ body {
   padding: 0.5em;
   padding-bottom: 1em;
 }
-/* line 279, ../scss/app_post.scss */
+/* line 283, ../scss/app_post.scss */
 #content p {
   padding: 0.5em;
 }
-/* line 282, ../scss/app_post.scss */
+/* line 286, ../scss/app_post.scss */
 #content .social-lg:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 286, ../scss/app_post.scss */
+/* line 290, ../scss/app_post.scss */
 #content .social-lg {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7790,19 +7795,19 @@ body {
   width: 100%;
   max-width: 5em;
 }
-/* line 292, ../scss/app_post.scss */
+/* line 296, ../scss/app_post.scss */
 #content img {
   width: 100%;
 }
 
 /* FOOTER */
-/* line 299, ../scss/app_post.scss */
+/* line 303, ../scss/app_post.scss */
 #foot {
   height: 11em;
   max-width: 100%;
   font-family: Veramono, monospace;
 }
-/* line 303, ../scss/app_post.scss */
+/* line 307, ../scss/app_post.scss */
 #foot .footer_mid {
   background-color: #6e6e6e;
   height: 11em;
@@ -7811,22 +7816,22 @@ body {
   text-align: center;
   font-family: Casual, sans;
 }
-/* line 310, ../scss/app_post.scss */
+/* line 314, ../scss/app_post.scss */
 #foot .footer_mid a {
   text-decoration: none;
   color: #454545;
 }
-/* line 314, ../scss/app_post.scss */
+/* line 318, ../scss/app_post.scss */
 #foot .footer_mid a:hover {
   color: black;
 }
-/* line 317, ../scss/app_post.scss */
+/* line 321, ../scss/app_post.scss */
 #foot .footer_mid .social-sm:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 321, ../scss/app_post.scss */
+/* line 325, ../scss/app_post.scss */
 #foot .footer_mid .social-sm {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7834,7 +7839,7 @@ body {
   width: 3em;
   height: 3em;
 }
-/* line 328, ../scss/app_post.scss */
+/* line 332, ../scss/app_post.scss */
 #foot .footer_right, #foot .footer_left {
   height: 11em;
   overflow: hidden;
@@ -7842,12 +7847,12 @@ body {
   color: #cccccc;
   background-color: #6e6e6e;
 }
-/* line 335, ../scss/app_post.scss */
+/* line 339, ../scss/app_post.scss */
 #foot .footer_left {
   text-align: right;
 }
 
-/* line 340, ../scss/app_post.scss */
+/* line 344, ../scss/app_post.scss */
 #footer {
   z-index: 10;
 }
