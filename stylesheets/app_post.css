@@ -7550,7 +7550,7 @@ body {
 #bg_slideshow {
   position: absolute;
   top: 0;
-  height: 3.5em;
+  height: 4em;
   overflow: hidden;
   max-width: 100%;
   margin: 0;
@@ -7564,56 +7564,56 @@ body {
 }
 /* line 98, ../scss/app_post.scss */
 #bg_slideshow .random-pic {
-  height: 3.5em;
+  height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 /* line 106, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-1 {
-  height: 3.5em;
+  height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 /* line 112, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-2 {
-  height: 3.5em;
+  height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/2.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 /* line 118, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-3 {
-  height: 3.5em;
+  height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/3.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 /* line 124, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-4 {
-  height: 3.5em;
+  height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/4.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 /* line 130, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-5 {
-  height: 3.5em;
+  height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/5.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 /* line 136, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-6 {
-  height: 3.5em;
+  height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/6.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 /* line 142, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-7 {
-  height: 3.5em;
+  height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/7.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
@@ -7640,7 +7640,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 3.5em;
+  height: 4em;
 }
 /* line 172, ../scss/app_post.scss */
 #header #top_left, #header #top_right, #header #top_mid {
@@ -7649,7 +7649,7 @@ body {
   overflow: hidden;
   word-wrap: break-word;
   position: relative;
-  height: 3.5em;
+  height: 4em;
   font-family: Veramono, monospace;
 }
 /* line 181, ../scss/app_post.scss */

@@ -8,9 +8,9 @@ excerpt: <img src="/img/postpics/old_site_screenshot_tb.png" class="display_pict
 
 Reading week has brought about little reading but has at least given me
 the chance to get some work done on this website. I was originally
-just curious about how a website comes about and wanted to build one
+just curious about how a website comes into being and wanted to build one
 up from scratch. Because, well, that's just the way I am. I didn't know the first
-thing about web design and wanted to make a simple website mainly just
+thing about web design and wanted to make a simple website primarily
 for the learning experience. What better chance to get a
 [vanity domain](http://en.wikipedia.org/wiki/Vanity_URL)
 up and running.
@@ -24,10 +24,10 @@ point had mostly been some variant of
 3. Write python script
 4. Boom, problem solved
 
-Of course step three could be shell scripts calling C code, assembly,
-arduino code, android stuff etc. But the idea is the same. There is
-more or less one thing that you have to worry about at a time. Most of
-the pages I read about web design seemed to be written in a completely
+Of course step three could be arduino code, shell scripts calling C code, 
+assembly, android stuff etc. But the idea is the same. There is
+more or less one thing that you have to worry about at a time. When I started 
+reading about web, most of the pages I read seemed to be written in a completely
 foreign language. What was a css and why did I need to javascript (or
 jquery?) it?
 
@@ -37,11 +37,11 @@ web turning.
 
 # A website is born
 
-I would have loved to make a retro full ascii website with monospace
+I would have loved to make a retro style full ascii website with monospace
 font and ascii art everywhere. I also wanted
-something more akin to all those hip startup websites you see
-everywhere - some may critisize them for being so similar but the
-single page scrolling webiste is damn sexy and intuitive.
+something more akin to one of those dangerously hip startup websites - some may 
+critisize them for being so similar but the
+single page scroller is damn sexy and intuitive.
 
 My first page (below) was an attempt to be too much at once. It was
 also my training grounds in pure html, css, and javascript. Most
@@ -58,12 +58,12 @@ soon came to realize how this stuff is supposed to be done.
 # A website reborn
 
 I had originally only used html, css, and a touch of
-javascript to not bog myself down with too much learning and to keep
+javascript as to not bog myself down with too much learning and to keep
 things simple. Maybe because I feel more comfortable with a solid
 understanding of the basics, maybe because school has taught me to not
 stray too far from the basic guidelines. Sure that stuff is important,
 but my thought about keeping things simple couldn't have been more
-misguided.
+misguided. Or, rather, I was keeping things simple in the wrong way.
 
 That's not how things are done.
 
@@ -76,12 +76,13 @@ The stack on the current version of the website looks a bit more like
 * [jekyll](http://jekyllrb.com/)
 
 Everything became dead easy once I realized that developers everywhere
-have put in countless hours so that I could make my website easily,
+had put in countless hours so that I could make my website easily,
 cleanly, and without the grunt work. I wish someone had been there to
 tell me that learning to use foundation after knowing html would take
 minutes and save hours.
 
-Now that it's done, I feel like a fool for not using
+Now that the website is done (or pseudo-done: always a work in progress),
+ I feel like a fool for not using
 [haml](http://haml.info/) and [coffeescript](http://coffeescript.org/)
 as well. The lesson here? Put in the time to learn the tools. Embrace them.
 
@@ -92,7 +93,10 @@ this goes against the method of just about every creator that I know,
 myself included. It pays off in the long run though.
 
 Side note, I'm using the (wonderful) services of namecheap and
-[github pages](http://pages.github.com/) with jekyll for the blog.
+[github pages](http://pages.github.com/) with jekyll for the blog. Also, the 
+pictures at the top of the [home](http://www.philisaac.com) and 
+[blog](http://www.philisaac.com/blog) pages are all taken by me. I'll
+add more as I take more.
 
 # Moving forward
 
