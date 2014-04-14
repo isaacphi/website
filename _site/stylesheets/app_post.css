@@ -7737,47 +7737,49 @@ body {
 }
 /* line 251, ../scss/app_post.scss */
 #content h2 {
+  line-height: 140%;
   font-family: Body, serif;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 256, ../scss/app_post.scss */
+/* line 257, ../scss/app_post.scss */
 #content h1 {
+  line-height: 140%;
   font-family: Casual, sans;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 261, ../scss/app_post.scss */
+/* line 263, ../scss/app_post.scss */
 #content a h2:hover {
   color: #6e6e6e;
 }
-/* line 264, ../scss/app_post.scss */
+/* line 266, ../scss/app_post.scss */
 #content .date {
   font-family: Casual, sans;
 }
-/* line 267, ../scss/app_post.scss */
+/* line 269, ../scss/app_post.scss */
 #content .display_picture {
   width: 100%;
   max-width: 10em;
 }
-/* line 271, ../scss/app_post.scss */
+/* line 273, ../scss/app_post.scss */
 #content #my_picture {
   width: 50%;
 }
-/* line 274, ../scss/app_post.scss */
+/* line 276, ../scss/app_post.scss */
 #content #picture_container {
   text-align: center;
 }
-/* line 277, ../scss/app_post.scss */
+/* line 279, ../scss/app_post.scss */
 #content a {
   color: #6e6e6e;
   text-decoration: none;
 }
-/* line 281, ../scss/app_post.scss */
+/* line 283, ../scss/app_post.scss */
 #content a:hover {
   color: black;
 }
-/* line 284, ../scss/app_post.scss */
+/* line 286, ../scss/app_post.scss */
 #content blockquote {
   border: 1px dashed #6e6e6e;
   font-size: 1.5em;
@@ -7785,17 +7787,17 @@ body {
   padding: 0.5em;
   padding-bottom: 1em;
 }
-/* line 291, ../scss/app_post.scss */
+/* line 293, ../scss/app_post.scss */
 #content p {
   padding: 0.5em;
 }
-/* line 294, ../scss/app_post.scss */
+/* line 296, ../scss/app_post.scss */
 #content .social-lg:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 298, ../scss/app_post.scss */
+/* line 300, ../scss/app_post.scss */
 #content .social-lg {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7803,19 +7805,19 @@ body {
   width: 100%;
   max-width: 5em;
 }
-/* line 304, ../scss/app_post.scss */
+/* line 306, ../scss/app_post.scss */
 #content img {
   width: 100%;
 }
 
 /* FOOTER */
-/* line 311, ../scss/app_post.scss */
+/* line 313, ../scss/app_post.scss */
 #foot {
   height: 11em;
   max-width: 100%;
   font-family: Veramono, monospace;
 }
-/* line 315, ../scss/app_post.scss */
+/* line 317, ../scss/app_post.scss */
 #foot .footer_mid {
   background-color: #6e6e6e;
   height: 11em;
@@ -7824,22 +7826,22 @@ body {
   text-align: center;
   font-family: Casual, sans;
 }
-/* line 322, ../scss/app_post.scss */
+/* line 324, ../scss/app_post.scss */
 #foot .footer_mid a {
   text-decoration: none;
   color: #454545;
 }
-/* line 326, ../scss/app_post.scss */
+/* line 328, ../scss/app_post.scss */
 #foot .footer_mid a:hover {
   color: black;
 }
-/* line 329, ../scss/app_post.scss */
+/* line 331, ../scss/app_post.scss */
 #foot .footer_mid .social-sm:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 333, ../scss/app_post.scss */
+/* line 335, ../scss/app_post.scss */
 #foot .footer_mid .social-sm {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7847,7 +7849,7 @@ body {
   width: 3em;
   height: 3em;
 }
-/* line 340, ../scss/app_post.scss */
+/* line 342, ../scss/app_post.scss */
 #foot .footer_right, #foot .footer_left {
   height: 11em;
   overflow: hidden;
@@ -7855,12 +7857,12 @@ body {
   color: #cccccc;
   background-color: #6e6e6e;
 }
-/* line 347, ../scss/app_post.scss */
+/* line 349, ../scss/app_post.scss */
 #foot .footer_left {
   text-align: right;
 }
 
-/* line 352, ../scss/app_post.scss */
+/* line 354, ../scss/app_post.scss */
 #footer {
   z-index: 10;
 }

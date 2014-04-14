@@ -7740,47 +7740,49 @@ body {
 }
 /* line 254, ../scss/app.scss */
 #content h2 {
+  line-height: 140%;
   font-family: Body, serif;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 259, ../scss/app.scss */
+/* line 260, ../scss/app.scss */
 #content h1 {
+  line-height: 140%;
   font-family: Casual, sans;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 264, ../scss/app.scss */
+/* line 266, ../scss/app.scss */
 #content a h2:hover {
   color: #6e6e6e;
 }
-/* line 267, ../scss/app.scss */
+/* line 269, ../scss/app.scss */
 #content .date {
   font-family: Casual, sans;
 }
-/* line 270, ../scss/app.scss */
+/* line 272, ../scss/app.scss */
 #content .display_picture {
   width: 100%;
   max-width: 10em;
 }
-/* line 274, ../scss/app.scss */
+/* line 276, ../scss/app.scss */
 #content #my_picture {
   width: 50%;
 }
-/* line 277, ../scss/app.scss */
+/* line 279, ../scss/app.scss */
 #content #picture_container {
   text-align: center;
 }
-/* line 280, ../scss/app.scss */
+/* line 282, ../scss/app.scss */
 #content a {
   color: #6e6e6e;
   text-decoration: none;
 }
-/* line 284, ../scss/app.scss */
+/* line 286, ../scss/app.scss */
 #content a:hover {
   color: black;
 }
-/* line 287, ../scss/app.scss */
+/* line 289, ../scss/app.scss */
 #content blockquote {
   border: 1px dashed #6e6e6e;
   font-size: 1.5em;
@@ -7788,17 +7790,17 @@ body {
   padding: 0.5em;
   padding-bottom: 1em;
 }
-/* line 294, ../scss/app.scss */
+/* line 296, ../scss/app.scss */
 #content p {
   padding: 0.5em;
 }
-/* line 297, ../scss/app.scss */
+/* line 299, ../scss/app.scss */
 #content .social-lg:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 301, ../scss/app.scss */
+/* line 303, ../scss/app.scss */
 #content .social-lg {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7808,13 +7810,13 @@ body {
 }
 
 /* FOOTER */
-/* line 311, ../scss/app.scss */
+/* line 313, ../scss/app.scss */
 #foot {
   height: 11em;
   max-width: 100%;
   font-family: Veramono, monospace;
 }
-/* line 315, ../scss/app.scss */
+/* line 317, ../scss/app.scss */
 #foot .footer_mid {
   background-color: #6e6e6e;
   height: 11em;
@@ -7823,22 +7825,22 @@ body {
   text-align: center;
   font-family: Casual, sans;
 }
-/* line 322, ../scss/app.scss */
+/* line 324, ../scss/app.scss */
 #foot .footer_mid a {
   text-decoration: none;
   color: #454545;
 }
-/* line 326, ../scss/app.scss */
+/* line 328, ../scss/app.scss */
 #foot .footer_mid a:hover {
   color: black;
 }
-/* line 329, ../scss/app.scss */
+/* line 331, ../scss/app.scss */
 #foot .footer_mid .social-sm:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 333, ../scss/app.scss */
+/* line 335, ../scss/app.scss */
 #foot .footer_mid .social-sm {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7846,7 +7848,7 @@ body {
   width: 3em;
   height: 3em;
 }
-/* line 340, ../scss/app.scss */
+/* line 342, ../scss/app.scss */
 #foot .footer_right, #foot .footer_left {
   height: 11em;
   overflow: hidden;
@@ -7854,12 +7856,12 @@ body {
   color: #cccccc;
   background-color: #6e6e6e;
 }
-/* line 347, ../scss/app.scss */
+/* line 349, ../scss/app.scss */
 #foot .footer_left {
   text-align: right;
 }
 
-/* line 352, ../scss/app.scss */
+/* line 354, ../scss/app.scss */
 #footer {
   z-index: 10;
 }
