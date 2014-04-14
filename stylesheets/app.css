@@ -7740,14 +7740,14 @@ body {
 }
 /* line 254, ../scss/app.scss */
 #content h2 {
-  line-height: 140%;
+  line-height: 125%;
   font-family: Body, serif;
   font-size: 2em;
   padding: 0.5em;
 }
 /* line 260, ../scss/app.scss */
 #content h1 {
-  line-height: 140%;
+  line-height: 125%;
   font-family: Casual, sans;
   font-size: 2em;
   padding: 0.5em;
