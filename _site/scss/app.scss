@@ -11,7 +11,7 @@
 @font-face { font-family: Casual; src: url('http://www.philisaac.com/fonts/JosefinSans-Regular.ttf'); } 
 
 /* VARIABLES */
-$header_height: 30em;
+$header_height: 34em;
 $footer_height: 11em;
 $mono_font: Veramono, monospace;
 $bg_light:#cccccc;
@@ -252,13 +252,13 @@ body {
 	border-color:$bg_dark;
     }
     h2 {
-	line-height: 125%;
+	line-height: 130%;
 	font-family: Body, serif;
 	font-size: 2em;
 	padding: 0.5em;
     }
     h1 {
-	line-height: 125%;
+	line-height: 130%;
 	font-family: Casual, sans;
 	font-size: 2em;
 	padding: 0.5em;

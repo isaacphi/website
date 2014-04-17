@@ -1,5 +1,5 @@
 ---
-title: Hack attack
+title: Hackathon spirit
 layout: posts
 excerpt: <img src="/img/postpics/timetracks_tb.png" class="display_picture"/>
 ---
