@@ -97,7 +97,8 @@ body {
     /* Background Pictures */
     .random-pic{
 	height: $header_height;
-	background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
+	background-color: #454545;
+	/*background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;*/
 	background-size: cover;
 	background-attachment: fixed;
     }

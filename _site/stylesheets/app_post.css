@@ -7565,53 +7565,54 @@ body {
 /* line 98, ../scss/app_post.scss */
 #bg_slideshow .random-pic {
   height: 4em;
-  background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
+  background-color: #454545;
+  /*background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;*/
   background-size: cover;
   background-attachment: fixed;
 }
-/* line 106, ../scss/app_post.scss */
+/* line 107, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-1 {
   height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
-/* line 112, ../scss/app_post.scss */
+/* line 113, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-2 {
   height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/2.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
-/* line 118, ../scss/app_post.scss */
+/* line 119, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-3 {
   height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/3.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
-/* line 124, ../scss/app_post.scss */
+/* line 125, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-4 {
   height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/4.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
-/* line 130, ../scss/app_post.scss */
+/* line 131, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-5 {
   height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/5.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
-/* line 136, ../scss/app_post.scss */
+/* line 137, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-6 {
   height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/6.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
-/* line 142, ../scss/app_post.scss */
+/* line 143, ../scss/app_post.scss */
 #bg_slideshow .orbit-item-7 {
   height: 4em;
   background: url(http://www.philisaac.com/img/backgrounds/7.jpg) no-repeat center;
@@ -7620,7 +7621,7 @@ body {
 }
 
 /* Hide orbit timer */
-/* line 151, ../scss/app_post.scss */
+/* line 152, ../scss/app_post.scss */
 .orbit-timer {
   left: -10000px;
   top: auto;
@@ -7631,7 +7632,7 @@ body {
 }
 
 /* HEADER */
-/* line 162, ../scss/app_post.scss */
+/* line 163, ../scss/app_post.scss */
 #header {
   z-index: 1;
   position: relative;
@@ -7642,7 +7643,7 @@ body {
   width: 100%;
   height: 4em;
 }
-/* line 172, ../scss/app_post.scss */
+/* line 173, ../scss/app_post.scss */
 #header #top_left, #header #top_right, #header #top_mid {
   color: #cccccc;
   z-index: 2;
@@ -7652,11 +7653,11 @@ body {
   height: 4em;
   font-family: Veramono, monospace;
 }
-/* line 181, ../scss/app_post.scss */
+/* line 182, ../scss/app_post.scss */
 #header #top_left {
   text-align: right;
 }
-/* line 184, ../scss/app_post.scss */
+/* line 185, ../scss/app_post.scss */
 #header #top_mid {
   position: absolute;
   bottom: 0;
@@ -7665,23 +7666,23 @@ body {
   z-index: 2;
   height: 3em;
 }
-/* line 191, ../scss/app_post.scss */
+/* line 192, ../scss/app_post.scss */
 #header #top_mid .name {
   font-family: Title, monospace;
   height: 3em;
   font-size: 3em;
   text-shadow: 2px 2px 2px black;
 }
-/* line 196, ../scss/app_post.scss */
+/* line 197, ../scss/app_post.scss */
 #header #top_mid .name a {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 200, ../scss/app_post.scss */
+/* line 201, ../scss/app_post.scss */
 #header #top_mid .name a:hover {
   color: #6e6e6e;
 }
-/* line 204, ../scss/app_post.scss */
+/* line 205, ../scss/app_post.scss */
 #header #top_mid .nav {
   height: 3em;
   font-size: 1.4em;
@@ -7691,18 +7692,18 @@ body {
   overflow: visible;
   word-wrap: normal;
 }
-/* line 212, ../scss/app_post.scss */
+/* line 213, ../scss/app_post.scss */
 #header #top_mid .nav a {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 216, ../scss/app_post.scss */
+/* line 217, ../scss/app_post.scss */
 #header #top_mid .nav a:hover {
   color: #6e6e6e;
 }
 
 /* BODY */
-/* line 225, ../scss/app_post.scss */
+/* line 226, ../scss/app_post.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -7710,7 +7711,7 @@ body {
   padding-top: 25px;
   height: 0;
 }
-/* line 230, ../scss/app_post.scss */
+/* line 231, ../scss/app_post.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -7719,13 +7720,13 @@ body {
   height: 100%;
 }
 
-/* line 239, ../scss/app_post.scss */
+/* line 240, ../scss/app_post.scss */
 #content {
   padding-top: 0;
   z-index: 0;
   max-width: 100%;
 }
-/* line 243, ../scss/app_post.scss */
+/* line 244, ../scss/app_post.scss */
 #content #content_main {
   padding: 1em;
   min-height: 100%;
@@ -7734,69 +7735,69 @@ body {
   line-height: 110%;
   font-size: 1.1em;
 }
-/* line 251, ../scss/app_post.scss */
+/* line 252, ../scss/app_post.scss */
 #content ul {
   list-style-type: disc;
   padding-left: 2em;
 }
-/* line 255, ../scss/app_post.scss */
+/* line 256, ../scss/app_post.scss */
 #content ol {
   list-style-type: decimal;
   padding-left: 2em;
 }
-/* line 259, ../scss/app_post.scss */
+/* line 260, ../scss/app_post.scss */
 #content .nodot ul {
   list-style-type: none;
 }
-/* line 262, ../scss/app_post.scss */
+/* line 263, ../scss/app_post.scss */
 #content hr {
   border-color: #6e6e6e;
 }
-/* line 265, ../scss/app_post.scss */
+/* line 266, ../scss/app_post.scss */
 #content h2 {
   line-height: 130%;
   font-family: Body, serif;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 271, ../scss/app_post.scss */
+/* line 272, ../scss/app_post.scss */
 #content h1 {
   line-height: 130%;
   font-family: Casual, sans;
   font-size: 2em;
   padding: 0.5em;
 }
-/* line 277, ../scss/app_post.scss */
+/* line 278, ../scss/app_post.scss */
 #content a h2:hover {
   color: #6e6e6e;
 }
-/* line 280, ../scss/app_post.scss */
+/* line 281, ../scss/app_post.scss */
 #content .date {
   font-family: Casual, sans;
 }
-/* line 283, ../scss/app_post.scss */
+/* line 284, ../scss/app_post.scss */
 #content .display_picture {
   width: 100%;
   max-width: 10em;
 }
-/* line 287, ../scss/app_post.scss */
+/* line 288, ../scss/app_post.scss */
 #content #my_picture {
   width: 50%;
 }
-/* line 290, ../scss/app_post.scss */
+/* line 291, ../scss/app_post.scss */
 #content #picture_container {
   text-align: center;
 }
-/* line 293, ../scss/app_post.scss */
+/* line 294, ../scss/app_post.scss */
 #content a {
   color: #6e6e6e;
   text-decoration: none;
 }
-/* line 297, ../scss/app_post.scss */
+/* line 298, ../scss/app_post.scss */
 #content a:hover {
   color: black;
 }
-/* line 300, ../scss/app_post.scss */
+/* line 301, ../scss/app_post.scss */
 #content blockquote {
   border: 1px dashed #6e6e6e;
   font-size: 1.5em;
@@ -7804,17 +7805,17 @@ body {
   padding: 0.5em;
   padding-bottom: 1em;
 }
-/* line 307, ../scss/app_post.scss */
+/* line 308, ../scss/app_post.scss */
 #content p {
   padding: 0.5em;
 }
-/* line 310, ../scss/app_post.scss */
+/* line 311, ../scss/app_post.scss */
 #content .social-lg:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 314, ../scss/app_post.scss */
+/* line 315, ../scss/app_post.scss */
 #content .social-lg {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7822,19 +7823,19 @@ body {
   width: 100%;
   max-width: 5em;
 }
-/* line 320, ../scss/app_post.scss */
+/* line 321, ../scss/app_post.scss */
 #content img {
   width: 100%;
 }
 
 /* FOOTER */
-/* line 327, ../scss/app_post.scss */
+/* line 328, ../scss/app_post.scss */
 #foot {
   height: 11em;
   max-width: 100%;
   font-family: Veramono, monospace;
 }
-/* line 331, ../scss/app_post.scss */
+/* line 332, ../scss/app_post.scss */
 #foot .footer_mid {
   background-color: #6e6e6e;
   height: 11em;
@@ -7843,22 +7844,22 @@ body {
   text-align: center;
   font-family: Casual, sans;
 }
-/* line 338, ../scss/app_post.scss */
+/* line 339, ../scss/app_post.scss */
 #foot .footer_mid a {
   text-decoration: none;
   color: #454545;
 }
-/* line 342, ../scss/app_post.scss */
+/* line 343, ../scss/app_post.scss */
 #foot .footer_mid a:hover {
   color: black;
 }
-/* line 345, ../scss/app_post.scss */
+/* line 346, ../scss/app_post.scss */
 #foot .footer_mid .social-sm:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
-/* line 349, ../scss/app_post.scss */
+/* line 350, ../scss/app_post.scss */
 #foot .footer_mid .social-sm {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -7866,7 +7867,7 @@ body {
   width: 3em;
   height: 3em;
 }
-/* line 356, ../scss/app_post.scss */
+/* line 357, ../scss/app_post.scss */
 #foot .footer_right, #foot .footer_left {
   height: 11em;
   overflow: hidden;
@@ -7874,12 +7875,12 @@ body {
   color: #cccccc;
   background-color: #6e6e6e;
 }
-/* line 363, ../scss/app_post.scss */
+/* line 364, ../scss/app_post.scss */
 #foot .footer_left {
   text-align: right;
 }
 
-/* line 368, ../scss/app_post.scss */
+/* line 369, ../scss/app_post.scss */
 #footer {
   z-index: 10;
 }
