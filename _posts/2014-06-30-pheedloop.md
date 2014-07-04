@@ -16,7 +16,7 @@ feedback and connecting you with your audience like never before.
 Lately I have been helping out with [PheedLoop](http://pheedloop.com). It's been
 fun, challenging, and rewarding all at the same time. I really love the product
 and the team and thanks to our kind mentors and early adopters, it has been
-exciting and exhilerating so far.
+exciting and exhilarating so far.
 
 ![Homepage]({{site.url}}/img/postpics/pheedloop_dash.png)
 
