@@ -1,5 +1,5 @@
 ---
-title: This very website
+title: This Very Website
 layout: posts
 excerpt: <img src="/img/postpics/old_site_screenshot_tb.png" class="display_picture"/>
 ---
