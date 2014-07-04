@@ -1,5 +1,5 @@
 ---
-title: Phil Isaac now has a website
+title: This very website
 layout: posts
 excerpt: <img src="/img/postpics/old_site_screenshot_tb.png" class="display_picture"/>
 ---
@@ -97,17 +97,5 @@ Side note, I'm using the (wonderful) services of namecheap and
 pictures at the top of the [home](http://www.philisaac.com) and 
 [blog](http://www.philisaac.com/blog) pages are all taken by me. I'll
 add more as I take more.
-
-# Moving forward
-
-What's next? I'll post some stuff to this blog - hardly my daily
-journal, what with the impending time-suck of university. I'll post about
-some side projects I'm working on and perhaps guides if there's much
-worth sharing.
-
-I'm not sure web development is for me, not that I can claim to know
-too much about it. I have had a run in with ruby and html canvas with battle AI
-(ongoing project - I'll write a post about it soon or when it's done,
-whichever comes first) which has been fun though, so we'll see.
 
 It's been a fun experience setting up the site. Until next time.

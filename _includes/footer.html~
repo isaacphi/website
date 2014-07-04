@@ -11,7 +11,26 @@
       <div class="row collapse" id="foot">
         <div class="large-2 medium-1 hide-for-small columns footer_left"><script>write();</script></div>
         <div class="large-8 medium-10 small-12 columns footer_mid">
-          Foot Foot Foot.
+	  
+	  Jump around:</br></br>
+	  <a href="{{site.url}}">ABOUT/CONTACT</a> &mdash;
+	  <a href="{{site.url}}/blog/">BLOG/PROJECTS</a></br></br>
+	  <a href="https://github.com/isaacphi">
+	    <img src="{{site.url}}/img/github.gif" class="social-sm"/>
+	  </a>
+	  <a href="mailto:phil@philisaac.com">
+	    <img src="{{site.url}}/img/mail.png" class="social-sm"/>
+	  </a>
+	  <a href="http://www.linkedin.com/in/philisaac">
+	    <img src="{{site.url}}/img/linkedin.png" class="social-sm"/>
+	  </a>
+	  <a href="http://plus.google.com/+PhilipIsaac93/">
+	    <img src="{{site.url}}/img/googleplus.png" class="social-sm"/>
+	  </a></br></br>
+	  <a href="http://www.gnu.org/copyleft/">Copyleft</a>
+	  <span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1);
+		     -webkit-transform: scaleX(-1); transform: scaleX(-1);
+		     display: inline-block;"> © </span> 2014 - Phil Isaac
         </div>
         <div class="large-2 medium-1 hide-for-small columns footer_right"><script>write();</script></div>
       </div>

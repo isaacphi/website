@@ -1,5 +1,5 @@
 ---
-title: Hackathon spirit
+title: Hackathons
 layout: posts
 excerpt: <img src="/img/postpics/timetracks_tb.png" class="display_picture"/>
 ---
