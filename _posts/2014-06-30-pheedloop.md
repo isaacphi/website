@@ -11,6 +11,8 @@ Our goal is to make you an amazing presenter, by getting you the best possible
 feedback and connecting you with your audience like never before. 
 &rdquo;</blockquote>
 
+</br>
+
 <div class="videoWrapper"><iframe src="//www.youtube.com/embed/wCOsuk8gc9E" frameborder="0"> </iframe></div>
 
 Lately I have been helping out with [PheedLoop](http://pheedloop.com). It's been
