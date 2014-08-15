@@ -1,0 +1,115 @@
+
+---
+title: Building Robots
+layout: posts
+excerpt: <img src="/img/postpics/balle_logo.png" class="display_picture"/>
+---
+
+<blockquote style="font-family:Casual;">
+      &ldquo;What has been your favorite course at university so far?&rdquo;</br></br>
+      &mdash;Interviewer</blockquote>
+
+Complicated answer. Here's why.
+
+# AER201
+
+This engineering design course is known as the bane of the engineering science
+program at U of T, and with good reason. This one course consumes more time than
+the other 5 equally weighted courses we take at the same time. With its difficult
+design milestones and several multi-hundred page reports, it seems hardly fair. 
+Here's why I loved it:
+
+# The mission
+
+Let's start with what we were expected to accomplish: Work in a team of three to
+design and build a fully functional autonomous robot capable 
+of packaging ping pong balls. More specifically:
+
+* Propose a complete design for the robot
+* Justify all design decisions with research, simulations, prototypes.
+* Decide upon and follow sound engineering design and managerial frameworks
+* Each member individually completes one of: mechanical, electrical, or software subsystem
+* Integration of subsystems
+* Complete documentation
+
+Ok, doesn't sound that bad. Keep in mind though that this was second year and
+being told to simply build a robot was pretty intimidating. Let's 
+look at my qualifications at the time
+
+* Can solve abstract circuit problems that one would never encounter in practice
+* Can solve abstract programming problems that one would never encounter in practice
+* Dazzling personality
+* Good at math
+
+Fine, but simply they'll teach us what we need to know though right?
+Things we were taught:
+
+* how to make a Gantt chart for time management
+* Where to find the 400 page long microcontroller manual
+* V = IR
+
+...well shit
+
+# It's ok though
+
+The point I'm trying to make is that we were more or less left on our own -- which
+felt terrible at the time. In hindsight it may have been the best learning experience
+I've has so far at school. I'm very greatful that we had a the chance at a design
+course and some hands on work in only second year.
+
+# Conception to Completion
+
+My role was to program a [PIC microcontroller](https://www.microchip.com/ParamChartSearch/Chart.aspx?branchID=1004)
+in assembly and interface it with sensors. I helped out with the circuits too.
+Trolling through that 400 page manual (and many others) definitly did me good.
+It turns out that the task was completeable in the end. We just had to get in the
+mindset of teaching ourselves and powering through what seemed to be impossible
+amounts of work.
+
+# Conception to Completion
+
+My role was to program a [PIC microcontroller](https://www.microchip.com/ParamChartSearch/Chart.aspx?branchID=1004)
+in assembly and interface it with sensors. I helped out with the circuits too.
+Trolling through that 400 page manual (and many others) definitly did me good.
+It turns out that the task was completeable in the end. We just had to get in the
+mindset of teaching ourselves and powering through what seemed to be impossible
+amounts of work.
+
+It was remarkable to see
+
+![Plan]({{site.url}}/img/postpics/choose_ball.jpg)
+
+Which was one of my first sketches about a mechanism, end up as part of a full
+fledged functional machine:
+
+![Ball-E]({{site.url}}/img/postpics/balle.jpg)
+
+There it is above, and in video form below.
+
+<div class="videoWrapper"><iframe src="//www.youtube.com/embed/CCjPhYDUPn4?rel=0" frameborder="0"> </iframe></div>
+
+# Lessons?
+
+The first lesson was that after you complete three fully functional subsystems,
+putting them together aint nothing like lego bricks. More importantly though:
+
+The answer to why this was my favorite course so far is that I feel much more empowered
+now. How so? Looking at a robot project back when I knew nothing about anything was
+an intimidating thing. So were 400 page manuals about assembly code that are written
+for professionals in industry. But somehow we got through.
+
+Now when I look at some challenge, I'm 100% sure I can do it if I put my mind to it.
+This is one of the reasons I got more into software outside of school after this project.
+It also got me into hobbiest electronics and robotics. I have an arduino now that
+I've been having fun with. My next project is a CNC whiteboard printer.
+
+One more thing: seeing a project all the way through gives you a certain attachment
+to it. Watching the video above makes me cringe for two reasons. The first being 
+the memories of the all nighters. The second being the desire to fix up everything
+that I realize in hindsight we did terribly wrong. I would definitely have made a
+few decisions differently.
+
+![Team]({{site.url}}/img/postpics/team_photo.jpg)
+
+Above: a photo we took after our last late night writing our final report. I have to
+thank the great team Carson Clark and Thomas Dingle.
