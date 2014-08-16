@@ -39,6 +39,7 @@ v.height = height;
 c.width = width;
 c.height = height;
 
+
 // function to call at regular intervals to detect blinking
 function checkPic() {
     ctx.drawImage(v,0,0,640,480,0,0,width,height);
