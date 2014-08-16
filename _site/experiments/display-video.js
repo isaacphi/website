@@ -13,7 +13,7 @@ if (navigator.getUserMedia) {
     navigator.getUserMedia (
 
 	// constraints
-	{ video: constraints },
+	{ video: true },
 
 	// successCallback: tie inward facing camera to video stream
 	function(localMediaStream) {
@@ -36,12 +36,12 @@ ctx=c.getContext('2d');
 // Picture size
 v.width = width;
 v.height = height;
-c.style.width = width;
-c.style.height = height;
+c.width = width;
+c.height = height;
 
 // function to call at regular intervals to detect blinking
 function checkPic() {
-    ctx.drawImage(v,0,0);
+    ctx.drawImage(v,0,0,640,480,0,0,width,height);
     setTimeout(checkPic, 33); //about 33 fps
 }
 
