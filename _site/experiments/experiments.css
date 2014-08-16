@@ -10,8 +10,7 @@ body {
     bottom: 0;
 }
 #info {
-    position: relative;
-    top:0;
-    left:0;
-    z-index:10;
+    position: absolute;
+    top:500px;
+    left:250px;
 }

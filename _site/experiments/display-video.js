@@ -10,6 +10,8 @@ $(window).load( function () {
     var height = 480;
     var v=document.getElementById("test-vid");
     var c=document.getElementById("test-canvas");
+    var recent_length = 20;
+    var recent = new Array(recent_length);
     ctx=c.getContext('2d');
     // Picture size
     v.width = width;
@@ -52,10 +54,14 @@ $(window).load( function () {
 	for(var i = 0; i < gray_img.data.length; i++){
 	    sum += gray_img.data[i]; //don't forget to add the base
 	}
-	var avg = sum/gray_img.data.length;
-	console.log("average darkness" + avg);
-	$('#info').html("darkness: " + avg);
-	setTimeout(checkPic, 33); // Allow other processes to occur
+	var avg = Math.round(sum/gray_img.data.length);
+	// Keep an array of recent darkness values
+	recent.shift();
+	recent.push(avg);
+	// Display results and do stuff
+	console.log(recent);
+	$('#info').html("darkness: " + recent);
+	setTimeout(checkPic, 0); // Allow other processes to occur
     }
 
     // Copy video stream to image on a regular interval
