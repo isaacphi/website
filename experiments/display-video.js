@@ -2,9 +2,9 @@
 navigator.getUserMedia = ( navigator.getUserMedia ||
 			   navigator.webkitGetUserMedia ||
 			   navigator.mozGetUserMedia ||
-			   navigator.msGetUserMedia);
+			   navigator.msGetUserMedia );
 
-var width = 300;
+var width = 400;
 var height = 300;
 var constraints = { manditory: { maxWidth:width, maxHeight:height } };
 // Set up video stream
