@@ -13,20 +13,16 @@ layout: experiments
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
-    
-    <div id="example">hi</div>
 
-    <video autoplay></video>
+    <video id="test-vid" autoplay></video>
+    <canvas id="test-canvas"></canvas>
 
   	<script src="{{site.url}}/js/third-party/threejs/three.min.js"></script>
   	<script src="{{site.url}}/js/third-party/threejs/StereoEffect.js"></script>
   	<script src="{{site.url}}/js/third-party/threejs/DeviceOrientationControls.js"></script>
   	<script src="{{site.url}}/js/third-party/threejs/OrbitControls.js"></script>
 
-  	<script src="{{site.url}}/js/display-video.js"></script>
-	<script>
-	  write();
-	</script>
+  	<script src="display-video.js"></script>
   
   </body>
 </html>
