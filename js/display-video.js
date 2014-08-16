@@ -1,5 +1,3 @@
-console.log("loaded");
-
 navigator.getUserMedia = ( navigator.getUserMedia ||
 			   navigator.webkitGetUserMedia ||
 			   navigator.mozGetUserMedia ||
@@ -10,9 +8,7 @@ if (navigator.getUserMedia) {
     navigator.getUserMedia (
 
 	// constraints
-	{
-            video: true
-	},
+	{ video: true },
 
 	// successCallback
 	function(localMediaStream) {
@@ -29,3 +25,6 @@ if (navigator.getUserMedia) {
     console.log("getUserMedia not supported");
 }
 
+function write() {
+    document.getElementById('example').innerHTML = "yes";
+}

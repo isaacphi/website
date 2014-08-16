@@ -10,10 +10,12 @@ layout: experiments
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="{{ site.url }}/stylesheets/experiments.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
     
-    <div id="example"></div>
+    <div id="example">hi</div>
+
     <video autoplay></video>
 
   	<script src="{{site.url}}/js/third-party/threejs/three.min.js"></script>
@@ -22,6 +24,9 @@ layout: experiments
   	<script src="{{site.url}}/js/third-party/threejs/OrbitControls.js"></script>
 
   	<script src="{{site.url}}/js/display-video.js"></script>
+	<script>
+	  write();
+	</script>
   
   </body>
 </html>
