@@ -8,7 +8,6 @@ $(window).load( function () {
 
     var width = 640;
     var height = 480;
-    var constraints = { manditory: { maxWidth:width, maxHeight:height } };
     var v=document.getElementById("test-vid");
     var c=document.getElementById("test-canvas");
     ctx=c.getContext('2d');
@@ -43,8 +42,18 @@ $(window).load( function () {
 
     // function to call at regular intervals to detect blinking
     function checkPic() {
-	ctx.drawImage(v,0,0,640,480,0,0,width,height);
-	setTimeout(checkPic, 33); //about 33 fps
+	ctx.drawImage(v,0,0,width,height,0,0,width,height);
+	// Do stuff:
+	img_data = ctx.getImageData(0,0,width,height);
+	var gray_img = new jsfeat.matrix_t(width, height, jsfeat.U8_t | jsfeat.C1_t);
+	jsfeat.imgproc.grayscale(img_data.data, gray_img.data);
+	var sum = 0;
+	for(var i = 0; i < gray_img.data.length; i++){
+	    sum += gray_img.data[i]; //don't forget to add the base
+	}
+	var avg = sum/gray_img.data.length;
+	console.log("average darkness" + avg);
+	setTimeout(checkPic, 33); // Allow other processes to occur
     }
 
     // Copy video stream to image on a regular interval
