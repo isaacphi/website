@@ -13,9 +13,12 @@ layout: experiments
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
-
-    <video id="test-vid" style="/*display:none;*/" autoplay></video>
-    <canvas id="test-canvas"></canvas>
+    
+    <div id="example">
+      <div id="info"></div>
+      <video id="test-vid" style="display:none;" autoplay></video>
+      <canvas id="test-canvas" style="display:none;"></canvas>
+    </div>
 
   	<script src="{{site.url}}/js/third-party/threejs/three.min.js"></script>
   	<script src="{{site.url}}/js/third-party/threejs/StereoEffect.js"></script>
@@ -24,6 +27,7 @@ layout: experiments
 
 	<script src="jsfeat-min.js"></script>
   	<script src="display-video.js"></script>
+	<script src="display.js"></script>
   
   </body>
 </html>

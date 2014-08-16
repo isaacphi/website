@@ -47,18 +47,21 @@ $(window).load( function () {
 	img_data = ctx.getImageData(0,0,width,height);
 	var gray_img = new jsfeat.matrix_t(width, height, jsfeat.U8_t | jsfeat.C1_t);
 	jsfeat.imgproc.grayscale(img_data.data, gray_img.data);
+	// Calculate average darkness of picture
 	var sum = 0;
 	for(var i = 0; i < gray_img.data.length; i++){
 	    sum += gray_img.data[i]; //don't forget to add the base
 	}
 	var avg = sum/gray_img.data.length;
 	console.log("average darkness" + avg);
+	$('#info').html("darkness: " + avg);
 	setTimeout(checkPic, 33); // Allow other processes to occur
     }
 
     // Copy video stream to image on a regular interval
     v.addEventListener('play',
 		       function() {
+			   // wait 1s first to let video start
 			   var i=window.setTimeout(checkPic, 1000);
 		       },
 		       false); 
