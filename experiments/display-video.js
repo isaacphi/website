@@ -6,13 +6,13 @@ $(window).load( function () {
 			       navigator.mozGetUserMedia ||
 			       navigator.msGetUserMedia );
 
-    var width = 640;
-    var height = 480;
-    var v=document.getElementById("test-vid");
-    var c=document.getElementById("test-canvas");
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+    var v = document.getElementById("test-vid");
+    var c = document.getElementById("canv");
     var recent_length = 20;
     var recent = new Array(recent_length);
-    ctx=c.getContext('2d');
+    var ctx = c.getContext('2d');
     // Picture size
     v.width = width;
     v.height = height;
@@ -44,7 +44,8 @@ $(window).load( function () {
 
     // function to call at regular intervals to detect blinking
     function checkPic() {
-	ctx.drawImage(v,0,0,width,height,0,0,width,height);
+	ctx.drawImage(v,0,0,640,480,0,0,width/2,height);
+	ctx.drawImage(v,0,0,640,480,width/2,0,width/2,height);
 	// Do stuff:
 	img_data = ctx.getImageData(0,0,width,height);
 	var gray_img = new jsfeat.matrix_t(width, height, jsfeat.U8_t | jsfeat.C1_t);
@@ -59,8 +60,8 @@ $(window).load( function () {
 	recent.shift();
 	recent.push(avg);
 	// Display results and do stuff
-	console.log(recent);
-	$('#info').html("darkness: " + recent);
+	//console.log(recent);
+	//$('#info').html("darkness: " + recent);
 	setTimeout(checkPic, 0); // Allow other processes to occur
     }
 
