@@ -29,12 +29,19 @@ $(window).load( function () {
 
 	if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
 	    requestFullScreen.call(docEl);
+	    width = window.innerWidth;
+	    height = window.innerHeight;
+	    v.width = width;
+	    v.height = height;
+	    c.width = width;
+	    c.height = height;
 	}
 	else {
 	    cancelFullScreen.call(doc);
 	}
     }
-    toggleFullScreen();
+    el = window.document;
+    el.addEventListener('click', toggleFullScreen, false);
     
     // Pick last video stream (outward facing camera)
     if (typeof MediaStreamTrack.getSources == 'function') {
