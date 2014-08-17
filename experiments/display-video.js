@@ -29,12 +29,6 @@ $(window).load( function () {
 
 	if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
 	    requestFullScreen.call(docEl);
-	    width = window.innerWidth;
-	    height = window.innerHeight;
-	    v.width = width;
-	    v.height = height;
-	    c.width = width;
-	    c.height = height;
 	}
 	else {
 	    cancelFullScreen.call(doc);
@@ -114,6 +108,12 @@ $(window).load( function () {
 
     // function to call at regular intervals to detect blinking
     function checkPic() {
+	width = window.innerWidth;
+	height = window.innerHeight;
+	v.width = width;
+	v.height = height;
+	c.width = width;
+	c.height = height;
 	ctx.drawImage(v,0,0,640,480,0,0,width/2,height);
 	ctx.drawImage(v,0,0,640,480,width/2,0,width/2,height);
 	// Do stuff:
