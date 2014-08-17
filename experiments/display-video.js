@@ -18,28 +18,74 @@ $(window).load( function () {
     v.height = height;
     c.width = width;
     c.height = height;
+    
+    // Pick last video stream (outward facing camera)
+    if (typeof MediaStreamTrack.getSources == 'function') {
+	console.log("browser supports picking camera");
+	MediaStreamTrack.getSources( function(sourceInfos) {
+	    var videoSource = null;
 
-    // Set up video stream
-    if (navigator.getUserMedia) {
-	console.log("getUserMedia supported");
-	navigator.getUserMedia (
-
-	    // constraints
-	    { video: true },
-
-	    // successCallback: tie inward facing camera to video stream
-	    function(localMediaStream) {
-		var video = document.querySelector('video');
-		video.src = window.URL.createObjectURL(localMediaStream);
-	    },
-
-	    // errorCallback
-	    function(err) {
-		console.log("The following error occured: " + err);
+	    for (var i = 0; i != sourceInfos.length; ++i) {
+		var sourceInfo = sourceInfos[i];
+		if (sourceInfo.kind === 'video') {
+		    console.log(sourceInfo.id, sourceInfo.label || 'camera');
+		    videoSource = sourceInfo.id;
+		}
 	    }
-	);
+
+	    var constraints = {
+		video: {
+		    optional: [{sourceId: videoSource}]
+		}
+	    };
+	    // Set up video stream
+	    if (navigator.getUserMedia) {
+		console.log("getUserMedia supported");
+		navigator.getUserMedia (
+
+		    // constraints
+		    constraints,
+
+		    // successCallback: tie inward facing camera to video stream
+		    function(localMediaStream) {
+			var video = document.querySelector('video');
+			video.src = window.URL.createObjectURL(localMediaStream);
+		    },
+
+		    // errorCallback
+		    function(err) {
+			console.log("The following error occured: " + err);
+		    }
+		);
+	    } else {
+		console.log("getUserMedia not supported");
+	    }
+	});
     } else {
-	console.log("getUserMedia not supported");
+	console.log("browser does not support camera picking");
+	var constraints = { video: true };
+	// Set up video stream
+	if (navigator.getUserMedia) {
+	    console.log("getUserMedia supported");
+	    navigator.getUserMedia (
+
+		// constraints
+		constraints,
+
+		// successCallback: tie inward facing camera to video stream
+		function(localMediaStream) {
+		    var video = document.querySelector('video');
+		    video.src = window.URL.createObjectURL(localMediaStream);
+		},
+
+		// errorCallback
+		function(err) {
+		    console.log("The following error occured: " + err);
+		}
+	    );
+	} else {
+	    console.log("getUserMedia not supported");
+	}
     }
 
     // function to call at regular intervals to detect blinking
