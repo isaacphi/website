@@ -132,6 +132,7 @@ $(window).load( function () {
 	img_data = ctx.getImageData(0,0,width,height);
 	var gray_img = new jsfeat.matrix_t(width, height, jsfeat.U8_t | jsfeat.C1_t);
 	jsfeat.imgproc.grayscale(img_data.data, gray_img.data);
+        jsfeat.imgproc.canny(gray_img, gray_img, 20, 50);
 	// Calculate average darkness of picture
 	var sum = 0;
 	for(var i = 0; i < gray_img.data.length; i++){
@@ -141,6 +142,18 @@ $(window).load( function () {
 	// Keep an array of recent darkness values
 	recent.shift();
 	recent.push(avg);
+
+        // render result back to canvas
+        var data_u32 = new Uint32Array(img_data.data.buffer);
+        var alpha = (0xff << 24);
+        var i = gray_img.cols*gray_img.rows, pix = 0;
+        while(--i >= 0) {
+            pix = gray_img.data[i];
+            data_u32[i] = alpha | (pix << 16) | (pix << 8) | pix;
+        }
+        
+        ctx.putImageData(img_data, 0, 0);
+
 	// Display results and do stuff
 	//console.log(recent);
 	//$('#info').html("darkness: " + recent);
