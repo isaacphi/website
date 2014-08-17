@@ -18,6 +18,21 @@ $(window).load( function () {
     v.height = height;
     c.width = width;
     c.height = height;
+
+    // Fullscreen
+    (function fullscreen() {
+	container = document.getElementById('example');
+
+	if (container.requestFullscreen) {
+            container.requestFullscreen();
+	} else if (container.msRequestFullscreen) {
+            container.msRequestFullscreen();
+	} else if (container.mozRequestFullScreen) {
+            container.mozRequestFullScreen();
+	} else if (container.webkitRequestFullscreen) {
+            container.webkitRequestFullscreen();
+	}
+    })();
     
     // Pick last video stream (outward facing camera)
     if (typeof MediaStreamTrack.getSources == 'function') {
