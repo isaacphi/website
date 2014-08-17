@@ -13,6 +13,7 @@ $(window).load( function () {
     var recent_length = 20;
     var recent = new Array(recent_length);
     var ctx = c.getContext('2d');
+    var offset = 50;
     // Picture size
     v.width = width;
     v.height = height;
@@ -108,14 +109,25 @@ $(window).load( function () {
 
     // function to call at regular intervals to detect blinking
     function checkPic() {
+	// update widths
 	width = window.innerWidth;
 	height = window.innerHeight;
 	v.width = width;
 	v.height = height;
 	c.width = width;
 	c.height = height;
-	ctx.drawImage(v,0,0,640,480,0,0,width/2,height);
-	ctx.drawImage(v,0,0,640,480,width/2,0,width/2,height);
+	// fix aspect ratio remember: max is 640x480
+	ar = (width/2)/height;
+	h = 480;
+	w = h*ar;
+	if (w > 680) {
+	    w = 680;
+	    h = w/ar;
+	    if (h > 480) { h = 480; }
+	}
+	// Draw left and right sides, offset (offset may cause problems)
+	ctx.drawImage(v,680/2-w/2-offset/2,0,w,h,0,0,width/2,height);
+	ctx.drawImage(v,680/2-w/2+offset/2,0,w,h,width/2,0,width/2,height);
 	// Do stuff:
 	img_data = ctx.getImageData(0,0,width,height);
 	var gray_img = new jsfeat.matrix_t(width, height, jsfeat.U8_t | jsfeat.C1_t);
