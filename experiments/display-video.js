@@ -20,19 +20,21 @@ $(window).load( function () {
     c.height = height;
 
     // Fullscreen
-    (function fullscreen() {
-	container = document.getElementById('example');
+    function toggleFullScreen() {
+	var doc = window.document;
+	var docEl = doc.documentElement;
 
-	if (container.requestFullscreen) {
-            container.requestFullscreen();
-	} else if (container.msRequestFullscreen) {
-            container.msRequestFullscreen();
-	} else if (container.mozRequestFullScreen) {
-            container.mozRequestFullScreen();
-	} else if (container.webkitRequestFullscreen) {
-            container.webkitRequestFullscreen();
+	var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+	var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+	if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+	    requestFullScreen.call(docEl);
 	}
-    })();
+	else {
+	    cancelFullScreen.call(doc);
+	}
+    }
+    toggleFullScreen();
     
     // Pick last video stream (outward facing camera)
     if (typeof MediaStreamTrack.getSources == 'function') {
