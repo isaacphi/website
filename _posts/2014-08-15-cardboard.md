@@ -39,10 +39,6 @@ a work in progress. Below is a link to something I've been working on just to
 get the interface worked out: the world around you filtered into line drawings using 
 jsFeat
 
-![The Experiment]({{site.url}}/img/postpics/myscreen.png)
-
-
-Here is my attempt to impliment blink to click for the google cardboard. More
-to come once my prototype is in working order.
-
 [Link]({{site.url}}/experiments/blink.html)
+
+![The Experiment]({{site.url}}/img/postpics/myscreen.png)
