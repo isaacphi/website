@@ -1,0 +1,32 @@
+---
+title: Blink
+layout: experiments
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cardboard Experiment</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="{{ site.url }}/stylesheets/experiments.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+  <body>
+    
+    <div id="example">
+      <div id="info"></div>
+      <video id="test-vid" style="display:none;" autoplay></video>
+      <canvas id="canv"></canvas>
+    </div>
+
+  	<script src="{{site.url}}/js/third-party/threejs/three.min.js"></script>
+  	<script src="{{site.url}}/js/third-party/threejs/StereoEffect.js"></script>
+  	<script src="{{site.url}}/js/third-party/threejs/DeviceOrientationControls.js"></script>
+  	<script src="{{site.url}}/js/third-party/threejs/OrbitControls.js"></script>
+
+	<script src="jsfeat-min.js"></script>
+  	<script src="display-video.js"></script>
+  
+  </body>
+</html>
